@@ -1,0 +1,8 @@
+#boton-pistas{
+text-decoration:none;
+color:white;
+padding:10px 20px;
+background-color:#FF9800;
+opacity: .85;
+display:inline-block
+}

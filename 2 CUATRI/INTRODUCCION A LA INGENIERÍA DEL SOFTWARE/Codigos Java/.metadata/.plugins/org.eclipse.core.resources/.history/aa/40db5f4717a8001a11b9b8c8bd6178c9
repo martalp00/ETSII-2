@@ -1,0 +1,86 @@
+package es.uma.ingsoftware.pistasdeportivas.tester;
+
+
+
+
+import static org.junit.Assert.assertEquals;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import es.uma.ingsoftware.pistasdeportivas.model.Quedadas;
+import es.uma.ingsoftware.pistasdeportivas.model.Usuario;
+import es.uma.ingsoftware.pistasdeportivas.model.ValoracionPistasDeportivas;
+
+class UsuarioTester {
+	private Usuario usuario;
+
+	
+	@BeforeEach
+	void setUp() throws Exception {
+		usuario = new Usuario();
+	}
+
+	@AfterEach
+	void tearDown() throws Exception {
+		usuario=null;
+	}
+
+	@Test
+	public void nombreUsuario() {
+		String nombre="Alvaro";
+		usuario.setNombre(nombre);
+		assertEquals("El nombre del usuario introducido es "+ nombre, usuario.getNombre(),nombre);		
+	}
+	
+	@Test
+	public void apellidosUsuario() {
+		String apellidos="Merino Molina";
+		usuario.setApellidos(apellidos);
+		assertEquals("Los apellidos del usuario introducido es "+ apellidos, usuario.getApellidos(),apellidos);		
+	}
+	
+	@Test
+	public void contraseñaUsuario() {
+		String contrasena="1234";
+		usuario.setContrasena(contrasena);;
+		assertEquals("El nombre de usuario introducido es "+ contrasena, usuario.getContrasena(),contrasena);		
+	}
+	
+	@Test
+	public void fechaUsuario() {
+		Date fecha = new Date(116, 5,3, 10, 5, 6);
+		usuario.setFechaNacimiento(fecha);
+		assertEquals("La fecha de usuario introducido es "+ fecha, usuario.getFechaNacimiento(),fecha);		
+	}
+	
+	@Test
+	public void emailUsuario() {
+		String email="hola@gmail.com";
+		usuario.setEmail(email);
+		assertEquals("El email de usuario introducido es "+ email, usuario.getEmail(),email);		
+	}
+	
+	@Test
+	public void QuedadasUsuario() {
+		List <Quedadas> publica = new ArrayList<>();
+		publica.add(new Quedadas());
+		usuario.setPublica(publica);
+		assertEquals("El usuario publica la quedada "+ publica, usuario.getPublica(),publica);		
+	}
+	
+	@Test
+	public void ValorarUsuario() {
+		List <ValoracionPistasDeportivas> valora = new ArrayList<>();
+		valora.add(new ValoracionPistasDeportivas());
+		usuario.setValora(valora);
+		assertEquals("El usuario valora "+ valora, usuario.getValora(), valora);		
+	}
+
+}

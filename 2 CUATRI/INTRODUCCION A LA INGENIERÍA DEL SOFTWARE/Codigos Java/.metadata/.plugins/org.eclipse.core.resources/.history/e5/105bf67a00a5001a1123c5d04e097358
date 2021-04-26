@@ -1,0 +1,38 @@
+package prBolos;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class JuegoBolos
+{
+	private List<Integer> tiradas = new ArrayList<Integer>();
+	
+	public void tirada(int bolo)
+	{
+		tiradas.add(bolo);
+	}
+	
+	public void puntosRonda(int ronda)
+	{
+		int = 
+				
+		for(int tiro=0; tiro < 2; tiro++)
+		{
+			tirada();
+		}
+	
+	}
+
+	public int puntuar()
+	{
+		int suma = 0;
+		
+		for(int i=0; i < 10; i++)
+		{
+			suma += suma + puntosRonda(i);
+		}
+		
+		return suma;
+	}
+
+}

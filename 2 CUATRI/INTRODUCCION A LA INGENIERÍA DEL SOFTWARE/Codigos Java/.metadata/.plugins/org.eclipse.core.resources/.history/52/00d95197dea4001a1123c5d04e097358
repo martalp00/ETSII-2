@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+		<title>Pagina de Inicio</title>
+
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Los iconos tipo Solid de Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Nuestro css-->
+    <link rel="stylesheet" type="text/css" href="static/css/inicio.css" th:href="@{/css/inicio.css}">
+
+</head>
+<a th:href="@{}" id="boton-cerrar" >Cerrar Sesion</a>
+<body>
+    <div class="modal-dialog text-center">
+        <div class="col-sm-8 main-section">
+            <div class="modal-content">
+                <div class="col-12 user-img">
+                    <img th:src="@{/img/user.png}"/>
+                </div>
+				
+				<a th:href="@{/pistas/}" id="boton-pistas" >Pistas deportivas</a>
+				<br>
+             	<a th:href="@{/quedadas/}" id="boton-quedadas" >Quedadas</a>
+             	<br>
+             	<a th:href="@{/usuarios/}" id="boton-usuarios" >Usuarios</a>
+                <br>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

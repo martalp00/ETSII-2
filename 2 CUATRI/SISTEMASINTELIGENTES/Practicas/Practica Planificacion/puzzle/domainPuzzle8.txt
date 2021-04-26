@@ -1,0 +1,3 @@
+operator slide(T,S1,S2) 
+pre: on(T,S1), tile(T), blank(S2), adjacent(S1,S2)
+post: on(T,S2), blank(S1),~on(T,S1), ~blank(S2)

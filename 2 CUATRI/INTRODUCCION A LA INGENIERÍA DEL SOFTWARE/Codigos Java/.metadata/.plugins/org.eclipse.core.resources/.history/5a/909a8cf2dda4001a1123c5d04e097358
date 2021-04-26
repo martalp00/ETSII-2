@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Mi primer Login</title>
+
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Los iconos tipo Solid de Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Nuestro css-->
+    <link rel="stylesheet" type="text/css" href="static/css/indexlista.css" th:href="@{/css/indexlista.css}">
+</head>
+<a id="boton-inicio" >Inicio</a>
+<body>
+	<div class="modal-dialog text-center">
+        <div class="col-sm-8 col-md-8 col-lg-8 main-section">
+            <div class="modal-content">
+				<h1> <p style="color:#e62020";> Listado de Usuarios</p></h1>
+					<a th:href="@{/usuarios/add}"> <font color=white> Crear Nuevo Usuario</font></a>
+					<br>
+					<table>
+					
+						<thead>
+							<tr ><td>ID_Usuario</td><td>Nombre</td><td>Apellidos</td><td>Correo</td><td>Eliminar</td><td>Modificar</td><td>Visitar</td></tr>
+						</thead>
+						<body>
+							<tr th:each="p : ${listausuarios}">
+							<td th:text="${p.id_usuario}"></td>
+							<td th:text="${p.nombre}"></td>
+							<td th:text="${p.apellidos}"></td>	
+							<td th:text="${p.email}"></td>	
+							<td><a th:href="@{/usuarios/delete/{id}(id=${p.id_usuario})}"><font color=#192991> Borrar</font></a></td>	
+							<td><a th:href="@{/usuarios/edit/{id}(id=${p.id_usuario})}"><font color=#192991>Editar</font></a></td>	
+							<td><a th:href="@{/usuarios/view/{id}(id=${p.id_usuario})}"><font color=#192991>Ver</font></a></td>		
+						</tr>	
+		</body>
+	</table>
+</body>   
+</html>

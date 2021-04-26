@@ -1,0 +1,29 @@
+Bueno, yo soy Marta López Pérez y este es nuestro diagrama de clases.
+A partir de los requisitos que ha nombrado antes nuestro compañero Álvaro Caba 
+hemos ido creando este diagrama. 
+Entre las clases más importantes cabe destacar la clase Usuario. Esta es la clase principal con
+la que todo está conectado ya que un usuario va a poder iniciar sesion o registrarse y así acceder 
+a la plataforma y a todo lo que esta engloba.
+
+Hemos implementado una clase Mensajes que hereda de la clase Chat Privado, donde un usuario va
+a poder tener una conversación dentro de la plataforma con otros usuarios.
+
+La clase pistas deportivas, donde quedan guardadas todas las pistas que los usuarios vayan registrando
+con sus respectivos datos.
+
+Los usuarios tambien van a poder registrar lugares de interés comun relacionados con el deporte
+ya sean tanto tiendas de ropa, como cafeterías o centros sanitarios que sirvan
+para proporcionar información extra a otros usuarios o para ubicar una pista en una zona u otra.
+
+La clase Post, donde se encuentran todas las quedadas que contiene una pista, que son creadas por un usuario.
+
+Todas estas clases heredan de la clase post ya que son básicamente posts con distintas características,
+y que luego aparecerán en el menú de inicio para que otros usuarios puedan verlo e interactuar entre ellos.
+
+Hemos implementado aquí una relación tatatá a la que hemos llamado ComentarioPistasDeportivas para poder 
+tener una valoración por parte de los usuarios sobre cada pista y otra de los lugares de interés que es
+esta de aqui llamada ComentarioLugaresInteres.
+
+En un principio este diagrama era muy extenso y habiamos añadidos clases que sobraban o que no
+eran relevantes pero hemos reducido el tamaño de nuestro diagrama para hacer la plataforma más optima 
+y a la vez incluir variedad de opciones para que el usuario pueda interactuar.

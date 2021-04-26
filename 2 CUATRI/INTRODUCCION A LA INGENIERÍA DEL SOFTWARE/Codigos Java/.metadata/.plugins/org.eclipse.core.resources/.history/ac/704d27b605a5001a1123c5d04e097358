@@ -1,0 +1,66 @@
+package prBolos;
+
+public class JuegoBolos 
+{
+	int[] tiradas = new int[21];
+	int tiradaActual;
+	int RONDAS = 10;
+	
+	public void tirada(int p) 
+	{
+		tiradas[tiradaActual++] = p;
+	}
+
+	public int puntuar() 
+	{
+		int puntosTotales = 0;
+		int numTirada = 0;
+
+		for (int i = 0; i < RONDAS; i++)
+		{
+			if (isStrike(numTirada)) 
+			{
+				puntosTotales += 10 + strikeBonus(numTirada);
+				numTirada++;
+			} 
+			else if (isSpare(numTirada)) 
+			{
+				puntosTotales += 10 + spareBonus(numTirada);
+				numTirada += 2;
+			} 
+			else 
+			{
+				puntosTotales += sumOfRolls(numTirada);
+				numTirada += 2;
+			}
+		}
+
+		return puntosTotales;
+	}
+
+	private boolean isStrike(int numTirada) 
+	{
+		return tiradas[numTirada] == 10;
+	}
+
+	private boolean isSpare(int numTirada) 
+	{
+		return sumOfRolls(numTirada) == 10;
+	}
+
+	private int strikeBonus(int numTirada) 
+	{
+		return sumOfRolls(numTirada+1);
+	}
+
+	private int spareBonus(int numTirada) 
+	{
+		return tiradas[numTirada+2];
+	}
+
+	private int rondaPuntos(int numTirada)
+	{
+		return tiradas[numTirada] + tiradas[numTirada+1];
+	}
+
+}

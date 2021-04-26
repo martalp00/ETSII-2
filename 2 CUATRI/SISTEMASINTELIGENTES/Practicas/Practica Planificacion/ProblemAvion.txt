@@ -1,0 +1,15 @@
+start (
+plane(p1),
+plane(p2),
+cargo(c1),
+cargo(c2),
+airport(agp),
+airport(bcn),
+at(p1, agp),
+at(c1, agp),
+at(p2, bcn),
+at(c2, bcn))
+
+goal(
+at(c1, bcn),
+at(c2, agp))

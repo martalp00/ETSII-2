@@ -1,0 +1,30 @@
+package prBolos;
+
+public class JuegoBolos
+{
+	private int[] partida = new int[10];
+	private int numJugadores = 2;
+	private String[] jugadores = new String[numJugadores];
+	
+	public JuegoBolos(String[] jug, int[] part)
+	{
+		jug = jugadores;
+		part = partida;
+		
+		for(int i=0; i < jug.length; i++)
+		{
+			jug[i] = "Jugador" + i;
+		}
+	}
+	
+	public void ronda(String[] jug, int[] part)
+	{
+		
+	}
+	
+	public void puntuar()
+	{
+		
+	}
+
+}

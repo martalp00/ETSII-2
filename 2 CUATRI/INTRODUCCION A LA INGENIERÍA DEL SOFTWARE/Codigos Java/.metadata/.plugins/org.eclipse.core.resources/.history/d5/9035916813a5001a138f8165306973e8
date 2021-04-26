@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Listado de pistas</title>
+</head>
+<body>
+	<h1>Agregar una pista a la plataforma</h1>
+	<form th:action="@{/pistas/save}" method="post" th:object="${pista}">
+		
+		
+		
+		<div>
+			<label for="nombre">Nombre</label>
+			<input type="text" id="nombre" th:field="*{nombre}">	
+		</div>
+		<div>
+			<label for="direccion">Direccion</label>
+			<input type="text" th:field="*{direccion}">	
+		</div>
+		<div>
+			<label for="coordenadaX">CoordenadaX</label>
+			<input type="text" id="coordenadaX" th:field="*{coordenadaX}">	
+		</div>
+		<div>
+			<label for="coordenadaY">CoordenadaY</label>
+			<input type="text" id="coordenadaY" th:field="*{coordenadaY}">	
+		</div>
+		<div>
+			<input type="submit" value="Enviar">		
+		</div>
+	</form>
+</body>
+</html>

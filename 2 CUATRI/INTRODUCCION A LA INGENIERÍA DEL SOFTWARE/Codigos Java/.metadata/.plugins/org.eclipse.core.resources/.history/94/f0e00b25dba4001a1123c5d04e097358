@@ -1,0 +1,73 @@
+body{
+    background: url(/img/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main-section{
+    margin:0 auto;
+    margin-top:25%;
+    padding: 0;
+}
+
+.modal-content{
+    background-color: #3b4652;
+    opacity: .85;  
+    margin: 0px -225px;
+    padding: 30px 10px 30px 10px;
+	width: 800px;
+	box-shadow: 0px 0px 3px #848484;
+}
+table{
+	background-color: white;
+	margin: 0 auto;
+	text-align: center;
+	table-layout: auto;
+	border-collapse: separate;
+	box-shadow: 0px 0px 3px #848484;
+	width: 85%;
+}
+
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+
+
+
+.form-group input{
+    height: 42px;
+    font-size: 18px;
+    border:5;
+    padding-left: 40px;
+    border-radius: 5px;
+}
+
+.form-group::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top:4px;
+}
+
+#boton-inicio{
+text-decoration:none;
+color:white;
+padding:10px 20px;
+background-color:#FF9800;
+opacity: .85;  
+display:inline-block
+}
+
+
+
+
+
+.forgot{
+    padding: 5px 0;
+}
+
+.forgot a{
+    color: white;
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;ejerT5/src/esperaActiva&apos;&#x0D;&#x0A;- Original project: &apos;pr5&apos;&#x0D;&#x0A;- Destination element: &apos;ejerT5/src/esperaActiva&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     prodconsumidor.Principal.java&#x0D;&#x0A;     prodconsumidor.Buffer.java&#x0D;&#x0A;     prodconsumidor.Productor.java&#x0D;&#x0A;     prodconsumidor.Consumidor.java" description="Copy compilation units" destination="=ejerT5/src&lt;esperaActiva" element1="/src&lt;prodconsumidor{Principal.java" element2="/src&lt;prodconsumidor{Buffer.java" element3="/src&lt;prodconsumidor{Productor.java" element4="/src&lt;prodconsumidor{Consumidor.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1589197564916" units="4" version="1.0"/>
+</session>

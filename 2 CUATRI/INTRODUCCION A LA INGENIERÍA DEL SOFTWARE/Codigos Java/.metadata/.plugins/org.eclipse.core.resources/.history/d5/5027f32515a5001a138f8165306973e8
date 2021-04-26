@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Listado de pistas</title>
+
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Los iconos tipo Solid de Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Nuestro css-->
+    <link rel="stylesheet" type="text/css" href="static/css/add.css" th:href="@{/css/add.css}">
+
+</head>
+
+<body>
+	<form th:action="@{/pistas/save}" method="post" th:object="${pista}">
+	
+	<h1><p style="color:#e62020";> Agregar una pistao</p></h1>
+	
+	<div class="modal-dialog text-center">
+        <div class="col-sm-8 main-section">
+            <div class="modal-content">
+            
+	            <label for="nombre">Nombre</label>
+				<input type="text" id="nombre" th:field="*{nombre}">	
+			</div>
+			
+			<div>
+			<label for="direccion">Direccion</label>
+			<input type="text" th:field="*{direccion}">	
+			</div>
+			
+			<div>
+			<label for="coordenadaX">CoordenadaX</label>
+			<input type="text" id="coordenadaX" th:field="*{coordenadaX}">	
+			</div>
+			
+			<div>
+			<label for="coordenadaY">CoordenadaY</label>
+			<input type="text" id="coordenadaY" th:field="*{coordenadaY}">	
+			</div>
+			
+			<div>
+			<input type="submit" value="Enviar">		
+			</div>
+            
+        </div>
+ 	</div>
+
+	</form>
+</body>
+</html>

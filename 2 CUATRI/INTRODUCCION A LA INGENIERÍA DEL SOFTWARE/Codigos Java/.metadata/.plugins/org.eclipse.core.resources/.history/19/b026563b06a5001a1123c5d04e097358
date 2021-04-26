@@ -1,0 +1,40 @@
+package prBolos;
+
+public class JuegoBolos 
+{
+	int[] tiradas = new int[21];
+	int tiradaActual;
+	int RONDAS = 10;
+	
+	public void tirada(int p) 
+	{
+		tiradas[tiradaActual++] = p;
+	}
+
+	public int puntuar() 
+	{
+		int puntosTotales = 0;
+		int numTirada = 0;
+
+		for (int i = 0; i < RONDAS; i++)
+		{
+			if (tiradas[numTirada] == 10) 
+			{
+				puntosTotales += 10 + strikeBonus(numTirada);
+				numTirada++;
+			} 
+			else if ((tiradas[numTirada] + tiradas[numTirada+1]) == 10) 
+			{
+				puntosTotales += 10 + tiradas[numTirada+2];
+				numTirada += 2;
+			} 
+			else 
+			{
+				puntosTotales += tiradas[numTirada] + tiradas[numTirada+1];
+				numTirada += 2;
+			}
+		}
+
+		return puntosTotales;
+	}
+}

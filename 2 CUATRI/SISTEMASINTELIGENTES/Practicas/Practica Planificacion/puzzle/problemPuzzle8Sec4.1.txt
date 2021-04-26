@@ -1,0 +1,15 @@
+start(
+tile(t1), tile(t2), tile(t3),
+tile(t4), tile(t5), tile(t6),
+tile(t7), tile(t8), blank(s9),
+
+on(t1,s1), on(t2,s2), on(t3,s3), on(t4,s4), on(t5,s5), on(t6,s6), on(t7,s7), on(t8,s8), 
+adjacent(s1,s2), adjacent(s1,s4), adjacent(s2,s3), adjacent(s2,s5), adjacent(s3,s6), 
+adjacent(s4,s7), adjacent(s4,s5), adjacent(s5,s8), adjacent(s5,s6), adjacent(s7,s8), 
+adjacent(s6,s9), adjacent(s8,s9), adjacent(s2,s1), adjacent(s4,s1), adjacent(s3,s2), 
+adjacent(s5,s2), adjacent(s6,s3), adjacent(s7,s4), adjacent(s5,s4), adjacent(s8,s5), 
+adjacent(s6,s5), adjacent(s8,s7), adjacent(s9,s6), adjacent(s9,s8))
+
+goal(
+blank(s1))
+

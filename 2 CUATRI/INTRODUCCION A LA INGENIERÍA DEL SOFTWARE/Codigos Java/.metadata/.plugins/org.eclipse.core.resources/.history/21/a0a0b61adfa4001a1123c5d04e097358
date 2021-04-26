@@ -1,0 +1,26 @@
+package es.uma.ingsoftware.pistasdeportivas.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import es.uma.ingsoftware.pistasdeportivas.model.PistasDeportivas;
+import es.uma.ingsoftware.pistasdeportivas.repository.PistasDeportivasRepository;
+
+@Service
+public class PistaService {
+
+	@Autowired
+	PistasDeportivasRepository pistasDeportivasRepository;
+	
+	public List<PistasDeportivas> getAll(){
+		return pistasDeportivasRepository.findAll();
+		
+	}
+
+	public void save(PistasDeportivas p) {
+		pistasDeportivasRepository.saveAndFlush(p);
+		
+	}
+}

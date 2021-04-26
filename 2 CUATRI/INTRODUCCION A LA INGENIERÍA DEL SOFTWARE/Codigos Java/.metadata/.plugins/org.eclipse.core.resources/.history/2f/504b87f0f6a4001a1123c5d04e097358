@@ -1,0 +1,36 @@
+package prBolos;
+
+public class JuegoBolos
+{
+	private int[] partida = new int[10];
+	private int numJugadores = 2;
+	
+	public JuegoBolos(int[] part)
+	{
+		part = partida;
+		
+	}
+	
+	public void rondas(int[] part)
+	{
+		for(int i=0; i < part.length; i++)
+		{
+			for(int jug=0; jug < numJugadores; jug++)
+			{
+				part[i] = tirada();
+			}
+		}
+	}
+	
+	private int tirada() 
+	{
+		
+		return 0;
+	}
+
+	public void puntuar()
+	{
+		
+	}
+
+}

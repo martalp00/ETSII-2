@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Mi primer Login</title>
+
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Los iconos tipo Solid de Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Nuestro css-->
+    <link rel="stylesheet" type="text/css" href="static/css/add.css" th:href="@{/css/add.css}">
+
+</head>
+<div th:switch="${usuario.id_usuario}">
+<a th:case= "null" th:href="@{/}" id="boton-inicio" >Atras</a>
+<a th:case= "*" th:href="@{/usuarios/}" id="boton-inicio" >Atras</a>
+</div>      				 
+
+
+<body>
+	
+    <div class="modal-dialog text-center">
+        <div class="col-sm-8 main-section">
+            <div class="modal-content">
+            	<form class="col-12" th:action="@{/usuarios/save}" method="post" th:object="${usuario}">
+            	<input type="hidden" id="id_usuario" th:field="*{id_usuario}">
+					
+					<div th:switch="${usuario.id_usuario}">
+						<h1 th:case= "null"> <p style="color:#e62020";> Registro de Usuario</p> </h1>
+						<h1 th:case= "*"> <p style="color:#e62020";> Editando Usuario</p></h1></div>
+						 
+      				 
+					<div
+						 class="form-group" id="nombre">
+             			 <input type="text" class="form-control" placeholder="Nombre" name="nombre" th:field="*{nombre}"/>
+      				 </div>	
+      				 	
+					<div
+						class="form-group" id="apellidos">
+						<input type="text" class="form-control" placeholder="Apellidos" name="apellidos" th:field="*{apellidos}"/>	
+					</div>	
+					
+					<div
+						class="form-group" id="email">
+						<input type="text" class="form-control" placeholder="Correo" name="email" th:field="*{email}"/>	
+					</div>
+					
+					<div
+						class="form-group" id="contrasena">
+						<input type="password" class="form-control" placeholder="Password" name="contrasena" th:field="*{contrasena}"/>	
+					</div>	
+					
+					<div
+						class="form-group" id="fechaNacimiento">
+						<input type="date" class="form-control" placeholder="Fecha Nacimiento" name="fechaNacimiento" th:field="*{fechaNacimiento}"/>	
+					</div>	
+						
+					<div th:switch="${usuario.id_usuario}">
+						<button th:case= "null" type="submit" class="btn btn-danger"></i>  Registrarse </button>	
+						<button th:case= "*" type="submit" class="btn btn-danger"></i>  Modificar </button>	
+					</div>			
+				</form>	
+            </div>
+        </div>
+    </div>
+</body>
+</html>
