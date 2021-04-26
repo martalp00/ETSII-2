@@ -1,0 +1,7 @@
+PESOS      : 4, 4, 2, 1, 2
+VALORES    : 4, 3, 2, 3, 3
+UNIDADES   : 2, 1, 2, 1, 1
+MAXIMO     : 9
+SOLUCION FB: 1, 0, 1, 1, 1
+SOLUCION PD: 1, 0, 1, 1, 1
+SOLUCION AV: 1, 0, 1, 1, 1
