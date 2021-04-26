@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41CADFF6-764C-39C6-A783-B4BA273F982F" name="TRAMOS">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-03 20:05:16 UTC</createdTime>
+<ownerDesignName>MotoGP</ownerDesignName>
+<engineerTo>
+<item key="9781846E-F1F9-AE69-455E-62F9EFCC27EF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>FBA35D5B-8089-46B0-F92B-3FEC2F08153F</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Metros" id="4D7ED8A8-C5AC-2D7C-12FF-2DFF3D698CC9">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-03 20:06:10 UTC</createdTime>
+<ownerDesignName>MotoGP</ownerDesignName>
+<engineerTo>
+<item key="9781846E-F1F9-AE69-455E-62F9EFCC27EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DiferenciaAltura" id="068F74F6-81FF-4341-E00A-4F561635A58C">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-03 20:06:18 UTC</createdTime>
+<ownerDesignName>MotoGP</ownerDesignName>
+<engineerTo>
+<item key="9781846E-F1F9-AE69-455E-62F9EFCC27EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Asfalto" id="833CAA65-4480-EC3D-274E-D8422E9BED19">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-03 20:06:28 UTC</createdTime>
+<ownerDesignName>MotoGP</ownerDesignName>
+<engineerTo>
+<item key="9781846E-F1F9-AE69-455E-62F9EFCC27EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VelocidadMedia" id="18D20200-ED2F-3ABD-542F-508D6143E9D7">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-03 20:06:38 UTC</createdTime>
+<ownerDesignName>MotoGP</ownerDesignName>
+<engineerTo>
+<item key="9781846E-F1F9-AE69-455E-62F9EFCC27EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VelocidadMax" id="0EDE4277-4ABC-F4E9-4104-350ABBC77B3F">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-03 20:06:50 UTC</createdTime>
+<ownerDesignName>MotoGP</ownerDesignName>
+<engineerTo>
+<item key="9781846E-F1F9-AE69-455E-62F9EFCC27EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

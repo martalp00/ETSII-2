@@ -1,0 +1,212 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48D3A369-0B94-01A8-2B0F-6CBE98B377EA" schemaObject="DF619CB8-7E76-57C0-3EDA-0D5E7245F85B" name="IMAGEN">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>IMAGEN</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:06 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>C2CD288D-E2F4-D7EE-FE6F-976BBBE548A4</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ARCHIVO" id="10709489-C793-AD59-67A6-EFC5AD9A56F9">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>IMAGEN</sourceObjSchema>
+<sourceObjName>ARCHIVO</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>CDCC855F-BB4B-BA2C-E29D-F0EC3CB2AAC7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 BYTE</dataTypeSize>
+<ownDataTypeParameters>32 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOMADA" id="5FD5D89B-77D3-A56A-8CB4-9C367C8B141A">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>IMAGEN</sourceObjSchema>
+<sourceObjName>TOMADA</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>C38BE23B-540C-3B9B-473E-5BE700D0C39E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KILOBYTES" id="21F7724A-7230-2A3E-68F6-DFD06561A4A4">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>IMAGEN</sourceObjSchema>
+<sourceObjName>KILOBYTES</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>79751236-6444-8E11-88A2-71C3B8049DA3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>25</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,25,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPOARCHIVO" id="E0497458-337C-C8E2-C6A7-D719A183DE0B">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>IMAGEN</sourceObjSchema>
+<sourceObjName>TIPOARCHIVO</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>82EB88A9-918F-C6F2-0B90-D003449241E5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODALIDAD" id="44FFCF68-DF6B-F6AC-31C2-750B8B9733BE">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>IMAGEN</sourceObjSchema>
+<sourceObjName>MODALIDAD</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>2BB640AA-9EF1-769C-35CE-F5EE61C596C1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 BYTE</dataTypeSize>
+<ownDataTypeParameters>64 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6B333AB-EDE2-2FA9-3E8C-F557EE6115C3" referredColumn="7D5F0784-80D7-DA60-470E-D91DD22A7A52"/>
+</associations>
+</Column>
+<Column name="DNIAUTOR" id="D5AC0DE2-FFA5-0851-FED7-6BEC00CC47EF">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>IMAGEN</sourceObjSchema>
+<sourceObjName>DNIAUTOR</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>345F652C-A0FB-AC18-19D8-10CF62334662</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLOR" id="8F3CA288-3479-A284-CD50-618E2D10DFE1">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>IMAGEN</sourceObjSchema>
+<sourceObjName>COLOR</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>9E3E5328-54A0-9674-C052-BF353ACF4CB9</importedID>
+<constraintName>IMAGEN_CHK1</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="COLOR=&apos;SATURADO&apos; OR COLOR= &apos;SUAVE&apos; OR COLOR= &apos;SEPIA&apos; OR COLOR= &apos;GRIS&apos;"/>
+<implementationDef dbType="Oracle Database 12cR2" definition="COLOR=&apos;SATURADO&apos; OR COLOR= &apos;SUAVE&apos; OR COLOR= &apos;SEPIA&apos; OR COLOR= &apos;GRIS&apos;"/>
+</checkConstraint>
+<defaultValue>&apos;SATURADO&apos;</defaultValue>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DNIFOT" id="93846CAD-42DB-3FCB-A700-6C20F1AD9280">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>IMAGEN</sourceObjSchema>
+<sourceObjName>DNIFOT</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>50EF9E60-5419-F21F-63F6-92639278C528</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFE1154A-3B80-469D-9435-D7EB97B84DC2" referredColumn="6A24E00E-F67A-9520-2B23-13D393566F1B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1313F0F3-1954-43B4-FB8A-32E7BED7F1C6" schemaObject="DF619CB8-7E76-57C0-3EDA-0D5E7245F85B" name="IMAGEN_PK">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>SYS_C0061969</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>EECE81C0-DF45-85FC-6C01-4694EF33413F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10709489-C793-AD59-67A6-EFC5AD9A56F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF04ED50-1C3B-5DE5-073F-97EC527D3300" name="IMAGEN_FK1">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93846CAD-42DB-3FCB-A700-6C20F1AD9280"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8008D60-4425-2FCD-EF17-86B482BDD8A1" name="SYS_C0061970">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44FFCF68-DF6B-F6AC-31C2-750B8B9733BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="IMAGEN_CHK2" directorySegmentName="seg_0" id="B14CDEA4-27F8-25FB-F0DB-EB29D766263E">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>IMAGEN_CHK2</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>AF62527C-E183-EEEC-1C12-6468A9B6C631</importedID>
+<rule><![CDATA[COLOR IN ('SATURADO', 'SUAVE') OR KILOBYTES <= 2048]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="IMAGEN_CHK3" directorySegmentName="seg_0" id="5876FCE1-90F2-40AD-B5F7-E1DF7739E051">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>IMAGEN_CHK3</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>C7C7AA1E-F89E-037F-6400-E48A8B3BA56A</importedID>
+<rule><![CDATA[NOT COLOR IN ('SEPIA','GRIS') OR KILOBYTES <= 4096]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

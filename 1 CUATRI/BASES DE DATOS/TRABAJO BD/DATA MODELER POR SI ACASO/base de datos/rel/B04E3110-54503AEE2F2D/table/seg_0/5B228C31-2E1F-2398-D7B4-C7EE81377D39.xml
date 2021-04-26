@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B228C31-2E1F-2398-D7B4-C7EE81377D39" name="USUARIO">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>F4C92608-6B1A-51C9-40D2-6DB0188447A4</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CORREO_ELECTRONICO" id="1A979720-34F4-2CD9-A89E-6E8B43FB665C">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>CDB35F18-C740-7360-1F3F-4C5B75C68FE0</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DNI" id="48A94BB2-3604-D8F0-678C-5FF38197E391">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>B388E5B8-87B0-3A8E-340F-5E2EFBD23A84</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="5AD65037-F427-7A58-7C4D-294EE2E14FFD">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>B9383F9F-88D9-7276-2F86-7D230CD3FA2B</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDOS" id="48CEAB32-CDC9-BCB4-9592-AB66EE00E926">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>9D9423D5-7C7C-01AD-6735-E00000B05C76</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASEÑA" id="185E6CEB-C8F1-94FD-32E7-C98FACDD04FE">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>D77BEC96-C25B-B39B-654C-D5A569BC79BB</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="9411C75A-9D53-6123-9302-0BCFEF1FE5D6">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>B26F7393-4F4B-9D21-0A2E-E423E9B2CFB6</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OCUPACION" id="1F54FAF4-9BB5-158A-11E5-F23A598EADF4">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>CCDF08C2-7D36-76DA-F036-E22921CE4352</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DNI1" id="A4E2B38B-7895-B4F6-0156-9DA0DA3DD1BC">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>11F0A401-501E-F782-8FB2-D6636C18766B</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISPONIBILIDAD" id="3ED7A016-0BB6-87EE-6BF9-4067F79AC232">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>7FCE383E-661B-2315-B1AE-C86D72553BFC</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TURNO" id="93A4EFFA-0B67-B98D-F743-73D0EF5F0B00">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>AF873F87-B919-4FEF-64E6-E4CEC5CF930C</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_CORREO_ELECTRONICO" id="A76EC271-B2A3-75DB-C26D-9A5A2CB22959">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>407438B4-BDF6-90E8-DD3A-0148E6382F09</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F89F3840-A52A-CCFD-10BF-B57408C11CD0" referredColumn="1A979720-34F4-2CD9-A89E-6E8B43FB665C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C28A1D2-FFDD-CDC6-1C37-5D6FADCCA79B" name="USUARIO_PK">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>17E005D1-8B5F-999C-719B-040B3B4F4A48</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A979720-34F4-2CD9-A89E-6E8B43FB665C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15288DB6-B98B-C713-5612-0C555D6780AA" name="USUARIO_DNI_UN">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>7507C1A3-D0AD-2621-3528-43319266444B</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48A94BB2-3604-D8F0-678C-5FF38197E391"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EB34908-1393-EDCC-C6D1-B7C43F860FB0" name="USUARIO_USUARIO_FK">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>A18BA42A-FE55-0108-7AAD-F7FE5564192A</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A76EC271-B2A3-75DB-C26D-9A5A2CB22959"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

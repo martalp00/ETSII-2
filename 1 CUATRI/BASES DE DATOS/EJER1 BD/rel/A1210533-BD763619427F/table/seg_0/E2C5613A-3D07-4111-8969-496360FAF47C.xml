@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2C5613A-3D07-4111-8969-496360FAF47C" schemaObject="DF619CB8-7E76-57C0-3EDA-0D5E7245F85B" name="CONCURSA">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>CONCURSA</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:06 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>6C5E5D5B-B136-2153-BEF0-E91AA57745FF</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDEN2" id="62A97850-C36D-43D4-2393-B8F91A72DEB1">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>CONCURSA</sourceObjSchema>
+<sourceObjName>IDEN2</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:06 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>70E5815D-8AB4-A3AC-242E-02240CB9001E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E493B426-1F8B-B0FA-1B48-D67653BD807A" referredColumn="640959B9-4E37-C986-CA14-ED9F6D321D7D"/>
+</associations>
+</Column>
+<Column name="ARCHIVO" id="2A3E6D82-4C36-6FF7-246E-844D424EFFE8">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>CONCURSA</sourceObjSchema>
+<sourceObjName>ARCHIVO</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:06 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>D6036AAA-0A60-D172-2327-0711059E22AA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 BYTE</dataTypeSize>
+<ownDataTypeParameters>32 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2893C31-834A-7A9A-1656-7C0FC8CFD7DF" referredColumn="10709489-C793-AD59-67A6-EFC5AD9A56F9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B63A24E-E4F5-E609-49C5-53252BAA1C1B" name="CONCURSA_PK">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>CONCURSA_PK</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>283B4A0F-D226-71E7-DE11-9DC807642720</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62A97850-C36D-43D4-2393-B8F91A72DEB1"/>
+<colUsage columnID="2A3E6D82-4C36-6FF7-246E-844D424EFFE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EE03DEA-48DB-7043-4554-BEA58C156B0F" schemaObject="DF619CB8-7E76-57C0-3EDA-0D5E7245F85B" name="CONCURSA_PK">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>CONCURSA_PK</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:06 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>0FAE5467-BCD1-B7C2-4FE4-6DCCED0B15D5</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62A97850-C36D-43D4-2393-B8F91A72DEB1"/>
+<colUsage columnID="2A3E6D82-4C36-6FF7-246E-844D424EFFE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="706EC0DA-0531-3436-776B-5A4C3A9B2C1E" name="CONCURSA_FK1">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A3E6D82-4C36-6FF7-246E-844D424EFFE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FAC9ACE-2F3A-E17B-F16D-3F6BECF85462" name="CONCURSA_FK2">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62A97850-C36D-43D4-2393-B8F91A72DEB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="11BB3E34-EC2F-81CD-4283-96510500A5E5" name="ESCALAS">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:12 UTC</createdTime>
+<generatorID>12A0888D-A20E-23A1-73FB-8BFA4E59EE61</generatorID>
+<ownerDesignName>Vuelos</ownerDesignName>
+<engineerTo>
+<item key="39CE26BE-C163-7336-ACBE-A35435FB4155" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="VUELO" id="90097B57-8FCC-2F83-6E58-C271CD3EE709">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:12 UTC</createdTime>
+<generatorID>1C98FBFB-4AE7-7B7B-D2AE-E556DA23CD65</generatorID>
+<ownerDesignName>Vuelos</ownerDesignName>
+<engineerTo>
+<item key="39CE26BE-C163-7336-ACBE-A35435FB4155" value="true"/>
+</engineerTo>
+<referedAttribute>88CDC120-B6A2-BF80-A36D-5307254FB98E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUM PARADA" id="F8C287F7-7FE3-F4B3-022D-ADF98F9C0763">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:12 UTC</createdTime>
+<generatorID>67956512-18E1-82B0-ACDC-85DDDD12274A</generatorID>
+<ownerDesignName>Vuelos</ownerDesignName>
+<engineerTo>
+<item key="39CE26BE-C163-7336-ACBE-A35435FB4155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PLANETA PARADA" id="2D1D6D14-85B3-F9D2-F2BA-6D06F8AB48AA">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:12 UTC</createdTime>
+<generatorID>90A2D777-9C40-798E-B8F5-88000D7C651A</generatorID>
+<ownerDesignName>Vuelos</ownerDesignName>
+<engineerTo>
+<item key="39CE26BE-C163-7336-ACBE-A35435FB4155" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>10F45770-E09D-25D0-9A7E-046534D0E7CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DURACION PARADA" id="3729CC05-EAEE-B6B8-2451-1026A401F7BD">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:12 UTC</createdTime>
+<generatorID>A0689C2B-A01C-7F55-AE65-FF080D9290BC</generatorID>
+<ownerDesignName>Vuelos</ownerDesignName>
+<engineerTo>
+<item key="39CE26BE-C163-7336-ACBE-A35435FB4155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EB210D1D-CFCE-98ED-F776-612D0141015A" name="ESCALAS PK">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:12 UTC</createdTime>
+<generatorID>A503D1E9-450A-A5FF-6D76-A656C35B7A67</generatorID>
+<ownerDesignName>Vuelos</ownerDesignName>
+<engineerTo>
+<item key="39CE26BE-C163-7336-ACBE-A35435FB4155" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>90097B57-8FCC-2F83-6E58-C271CD3EE709</attributeRef>
+<attributeRef>F8C287F7-7FE3-F4B3-022D-ADF98F9C0763</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

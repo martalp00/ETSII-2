@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="MODALIDAD" directorySegmentName="seg_0" id="BE0CCFD9-FD25-59E3-B230-E4285F9B5E33">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:06 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<schemaObject>DF619CB8-7E76-57C0-3EDA-0D5E7245F85B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F712C16C-9801-006D-9D12-8B6B09F40201</segment>
+<tableSpace>08914303-4398-0EE2-1193-049E9E5CBB8A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOMBRE" id="7D5F0784-80D7-DA60-470E-D91DD22A7A52">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MODALIDAD_PK" id="D6D5EF93-9079-9593-37F6-64C5149E5ACB">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<schemaObject>DF619CB8-7E76-57C0-3EDA-0D5E7245F85B</schemaObject>
+<segment>A741B326-2F66-7AED-D257-385233F3BDD5</segment>
+<tableSpace>08914303-4398-0EE2-1193-049E9E5CBB8A</tableSpace>
+<indexSegment>A741B326-2F66-7AED-D257-385233F3BDD5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

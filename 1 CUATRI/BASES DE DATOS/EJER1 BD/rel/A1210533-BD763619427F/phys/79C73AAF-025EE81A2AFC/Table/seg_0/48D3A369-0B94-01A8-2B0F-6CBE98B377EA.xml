@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="IMAGEN" directorySegmentName="seg_0" id="48D3A369-0B94-01A8-2B0F-6CBE98B377EA">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:06 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<schemaObject>DF619CB8-7E76-57C0-3EDA-0D5E7245F85B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F712C16C-9801-006D-9D12-8B6B09F40201</segment>
+<tableSpace>08914303-4398-0EE2-1193-049E9E5CBB8A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ARCHIVO" id="10709489-C793-AD59-67A6-EFC5AD9A56F9">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="KILOBYTES" id="21F7724A-7230-2A3E-68F6-DFD06561A4A4">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MODALIDAD" id="44FFCF68-DF6B-F6AC-31C2-750B8B9733BE">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TOMADA" id="5FD5D89B-77D3-A56A-8CB4-9C367C8B141A">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COLOR" id="8F3CA288-3479-A284-CD50-618E2D10DFE1">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<defaultValue>&apos;SATURADO&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="DNIFOT" id="93846CAD-42DB-3FCB-A700-6C20F1AD9280">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DNIAUTOR" id="D5AC0DE2-FFA5-0851-FED7-6BEC00CC47EF">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPOARCHIVO" id="E0497458-337C-C8E2-C6A7-D719A183DE0B">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0061970" id="A8008D60-4425-2FCD-EF17-86B482BDD8A1">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="IMAGEN_FK1" id="AF04ED50-1C3B-5DE5-073F-97EC527D3300">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="IMAGEN_PK" id="1313F0F3-1954-43B4-FB8A-32E7BED7F1C6">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<schemaObject>DF619CB8-7E76-57C0-3EDA-0D5E7245F85B</schemaObject>
+<segment>A741B326-2F66-7AED-D257-385233F3BDD5</segment>
+<tableSpace>08914303-4398-0EE2-1193-049E9E5CBB8A</tableSpace>
+<indexSegment>A741B326-2F66-7AED-D257-385233F3BDD5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="IMAGEN_CHK3" id="5876FCE1-90F2-40AD-B5F7-E1DF7739E051">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="IMAGEN_CHK2" id="B14CDEA4-27F8-25FB-F0DB-EB29D766263E">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev12c>

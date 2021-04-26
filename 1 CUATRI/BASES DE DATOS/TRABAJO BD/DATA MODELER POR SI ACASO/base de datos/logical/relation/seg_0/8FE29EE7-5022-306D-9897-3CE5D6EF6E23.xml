@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MANDA" directorySegmentName="seg_0" id="8FE29EE7-5022-306D-9897-3CE5D6EF6E23">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 13:12:17 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<sourcePk>FB5B6DB9-2AAB-A21B-8655-CF70640F6C96</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>RECIBE/MANDA</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B1AC227A-977F-156E-7DA2-2357999FD166</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>96072D54-CC33-C38A-1062-7A43995F717A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="e-p" directorySegmentName="seg_0" id="0852D3D1-718A-DCAE-543A-1E7323DEDDEF">
+<createdBy>marta</createdBy>
+<createdTime>2020-09-07 01:41:18 UTC</createdTime>
+<ownerDesignName>parques naturales</ownerDesignName>
+<engineerTo>
+<item key="0412ABBC-9FCC-9E77-DEAD-AD530E46A9C7" value="true"/>
+</engineerTo>
+<sourcePk>D795AC89-FE41-9FC7-A697-DE73F6A03CFB</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>tiene</nameOnSource>
+<nameOnTarget>contiene</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CDC1C088-B654-7EEB-42E8-249230B566B3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FF1A20B9-CCB4-6DCD-A229-E2BB422F300B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

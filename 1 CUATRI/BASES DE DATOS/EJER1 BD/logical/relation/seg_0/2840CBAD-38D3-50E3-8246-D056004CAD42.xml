@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="JURADO_FK1" directorySegmentName="seg_0" id="2840CBAD-38D3-50E3-8246-D056004CAD42">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:14 UTC</createdTime>
+<generatorID>B88AC443-CF64-9675-4E96-871B14A23D69</generatorID>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<engineerTo>
+<item key="A1210533-B6C3-1671-A16A-BD763619427F" value="true"/>
+</engineerTo>
+<sourcePk>5DF9B3FD-CA54-0067-08AC-B6FDEC31C006</sourcePk>
+<dominantRole>3A8D4604-D78E-AC7A-256C-917D44875472</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3A8D4604-D78E-AC7A-256C-917D44875472</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D03F57F1-A03C-E194-2BDA-CFEB9088DECF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

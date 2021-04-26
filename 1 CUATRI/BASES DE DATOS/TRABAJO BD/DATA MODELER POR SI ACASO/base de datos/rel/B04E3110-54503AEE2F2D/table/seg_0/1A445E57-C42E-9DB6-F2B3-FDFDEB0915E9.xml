@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A445E57-C42E-9DB6-F2B3-FDFDEB0915E9" name="ASIGNATURAS">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>A6C9355E-F58A-B512-AA06-BA153EFA3643</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="CF14011F-E444-506B-CE73-55832DD2665A">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>91BA00AD-97E5-B02B-7008-E33BF05D2712</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="BF1F8D34-4978-CFBA-4A07-C2C41300E498">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>A9AC2652-D4FF-BA1F-9559-4C1CBF4B477E</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CENTRO" id="6F30D5F6-7AD6-A373-DF80-8F099B6076C6">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>DE4D8BAD-C3CA-65EB-30C1-24B5C2A2D304</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C91C77B2-EEF7-A41E-0EBF-2ECBCE260466" name="ASIGNATURAS_PK">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>A3F1574F-8DA4-F22A-7F1F-EA22C7598ED8</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF14011F-E444-506B-CE73-55832DD2665A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

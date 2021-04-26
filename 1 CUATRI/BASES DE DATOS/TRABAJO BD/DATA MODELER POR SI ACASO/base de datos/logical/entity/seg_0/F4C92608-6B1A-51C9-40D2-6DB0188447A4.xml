@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4C92608-6B1A-51C9-40D2-6DB0188447A4" name="USUARIO">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 11:49:26 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CORREO_ELECTRONICO" id="CDB35F18-C740-7360-1F3F-4C5B75C68FE0">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 11:52:37 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI" id="B388E5B8-87B0-3A8E-340F-5E2EFBD23A84">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 11:49:37 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="B9383F9F-88D9-7276-2F86-7D230CD3FA2B">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 11:51:04 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDOS" id="9D9423D5-7C7C-01AD-6735-E00000B05C76">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 11:51:23 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONTRASEÑA" id="D77BEC96-C25B-B39B-654C-D5A569BC79BB">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 11:53:05 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONO" id="B26F7393-4F4B-9D21-0A2E-E423E9B2CFB6">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 11:53:48 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OCUPACION" id="CCDF08C2-7D36-76DA-F036-E22921CE4352">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 12:27:46 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI1" id="11F0A401-501E-F782-8FB2-D6636C18766B">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 13:22:20 UTC</createdTime>
+<generatorID>A18BA42A-FE55-0108-7AAD-F7FE5564192A</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B388E5B8-87B0-3A8E-340F-5E2EFBD23A84</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DISPONIBILIDAD" id="7FCE383E-661B-2315-B1AE-C86D72553BFC">
+<createdBy>LordCoder</createdBy>
+<createdTime>2019-11-19 12:33:01 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TURNO" id="AF873F87-B919-4FEF-64E6-E4CEC5CF930C">
+<createdBy>LordCoder</createdBy>
+<createdTime>2019-11-19 12:34:21 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="17E005D1-8B5F-999C-719B-040B3B4F4A48" name="USUARIO PK">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 11:50:10 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CDB35F18-C740-7360-1F3F-4C5B75C68FE0</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="7507C1A3-D0AD-2621-3528-43319266444B" name="Key_2">
+<createdBy>LordCoder</createdBy>
+<createdTime>2019-11-19 12:42:12 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<newElementsIDs>B388E5B8-87B0-3A8E-340F-5E2EFBD23A84</newElementsIDs>
+<usedAttributes>
+<attributeRef>B388E5B8-87B0-3A8E-340F-5E2EFBD23A84</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

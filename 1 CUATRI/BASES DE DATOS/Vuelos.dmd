@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Vuelos" id="923CEE65-73E3-77D0-3E5E-7DF12AFEED0B" version="3.5">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:01:22 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>923CEE65-73E3-77D0-3E5E-7DF12AFEED0B</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="77EC466C-06BC-563A-7596-5319ED5E68D4">
+<designStoragePath>F:\MARTA\Documentos\UNI\2º\BD\Vuelos</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="03464036-EEDE-135E-7E6E-2D0D96A6F7EC">
+<designStoragePath>F:\MARTA\Documentos\UNI\2º\BD\Vuelos</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

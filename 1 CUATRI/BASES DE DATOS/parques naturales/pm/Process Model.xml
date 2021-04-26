@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="581EDB89-E230-3A3B-5BD0-219BD04E5E2F">
+<createdBy>marta</createdBy>
+<createdTime>2020-09-07 01:36:11 UTC</createdTime>
+<ownerDesignName>parques naturales</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

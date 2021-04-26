@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B382F56E-F471-5182-50B9-D04F427BF2F0" name="EMPLEADOS">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>B1AC227A-977F-156E-7DA2-2357999FD166</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DNI" id="DE57E4F9-E210-C549-6182-20180E3C6340">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>64A12E75-89C9-DBEC-E2C3-5BDE39D0BA8D</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDOS" id="CE15B1DA-C2EE-0EA6-998B-B9E3F5AE9EC5">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>951D88D9-2886-C890-364F-9D2821856DD1</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="9E382281-EDE7-B11D-22D0-2FE9DD4B9BA2">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>E46650B9-9DFC-7447-EC11-AF9E03F991D8</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ONG_CODIGO" id="546B3BBB-9B03-2596-DC1B-D9CC9FBEE2C2">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>A8FA4593-EA3A-6A7D-59EB-E7181FAF0687</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB91B039-E9E0-1A5D-31E6-3CE545ABBAEA" referredColumn="B95C1D86-0B47-5119-9A23-8AEC2B6AD87F"/>
+</associations>
+</Column>
+<Column name="CARGO" id="44D065D5-3649-7CAD-EA52-91C8DBC0E92B">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>4F84B784-CB6B-0BFA-F993-BC4C19B8FF2D</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8704E008-9CCC-F334-D013-8226E4FAC182" name="EMPLEADOS_PK">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>FB5B6DB9-2AAB-A21B-8655-CF70640F6C96</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE57E4F9-E210-C549-6182-20180E3C6340"/>
+<colUsage columnID="546B3BBB-9B03-2596-DC1B-D9CC9FBEE2C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92B16B94-3082-2E35-EA67-CB88EA65BA8D" name="EMPLEADOS_ONG_FK">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>E89E62C6-9986-AD6F-7AD0-776E1D0FDB1C</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="546B3BBB-9B03-2596-DC1B-D9CC9FBEE2C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_1" directorySegmentName="seg_0" id="D3ABDB15-C3A0-5671-1EEA-0203E1AAE40F">
+<createdBy>marta</createdBy>
+<createdTime>2020-09-07 01:58:31 UTC</createdTime>
+<ownerDesignName>parques naturales</ownerDesignName>
+<engineerTo>
+<item key="0412ABBC-9FCC-9E77-DEAD-AD530E46A9C7" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>FF1A20B9-CCB4-6DCD-A229-E2BB422F300B</sourceEntity>
+<targetEntity>41B9E2BE-DA86-712F-47FF-B3E042B39A5D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

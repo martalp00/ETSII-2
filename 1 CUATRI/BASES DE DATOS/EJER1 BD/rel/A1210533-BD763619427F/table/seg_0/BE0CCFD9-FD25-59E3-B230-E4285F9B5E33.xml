@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE0CCFD9-FD25-59E3-B230-E4285F9B5E33" schemaObject="DF619CB8-7E76-57C0-3EDA-0D5E7245F85B" name="MODALIDAD">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>MODALIDAD</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:06 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>F306E06B-6EE2-8DB3-13B8-1452C8F9BD5F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOMBRE" id="7D5F0784-80D7-DA60-470E-D91DD22A7A52">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>MODALIDAD</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>7C99E2A1-DF6E-5150-829C-51C9E5494615</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 BYTE</dataTypeSize>
+<ownDataTypeParameters>64 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6D5EF93-9079-9593-37F6-64C5149E5ACB" schemaObject="DF619CB8-7E76-57C0-3EDA-0D5E7245F85B" name="MODALIDAD_PK">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>SYS_C0061822</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>9A20BB58-99B5-EAD4-8882-CC8E819DBDAA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D5F0784-80D7-DA60-470E-D91DD22A7A52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

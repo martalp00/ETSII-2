@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="parques naturales" id="9AAB6BC3-96E9-AC38-8F4C-0F15C5CFCB6C" version="3.5">
+<createdBy>marta</createdBy>
+<createdTime>2020-09-07 01:36:10 UTC</createdTime>
+<ownerDesignName>parques naturales</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9AAB6BC3-96E9-AC38-8F4C-0F15C5CFCB6C</designId>
+</OSDM_Design>

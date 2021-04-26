@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FA192CCD-71E9-F9B6-6C4E-16D59C728855" containerWithKeyObject="A8520BDC-9A46-7462-8F1D-E3952FB950CE" localFKIndex="CDF0548B-58D3-B043-B1F6-51140C11B386" name="MENSAJE_EMPLEADOS_FK">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>8FE29EE7-5022-306D-9897-3CE5D6EF6E23</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<referredTableLongName>EMPLEADOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B382F56E-F471-5182-50B9-D04F427BF2F0</referredTableID>
+<keyObject>8704E008-9CCC-F334-D013-8226E4FAC182</keyObject>
+<referredKeyID>8704E008-9CCC-F334-D013-8226E4FAC182</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DNI,ONG_CODIGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

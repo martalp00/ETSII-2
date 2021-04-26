@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96072D54-CC33-C38A-1062-7A43995F717A" name="MENSAJE">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 13:06:15 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FECHA" id="46FEBE26-53D3-57A3-9875-799E13AD7040">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 13:06:27 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TITULO" id="93376B44-2DDD-832B-AAE1-85D75BF97694">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 13:07:34 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONTENIDO" id="4617DC1C-2C9D-018E-1753-821D8F9F5D40">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 13:07:47 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI1" id="26C00903-2846-7540-4710-F572D3B1DF26">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 13:12:17 UTC</createdTime>
+<generatorID>8FE29EE7-5022-306D-9897-3CE5D6EF6E23</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<referedAttribute>64A12E75-89C9-DBEC-E2C3-5BDE39D0BA8D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO" id="03EBCD7E-0BE9-93A1-FFFE-6DFFFD478FF4">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 13:12:17 UTC</createdTime>
+<generatorID>8FE29EE7-5022-306D-9897-3CE5D6EF6E23</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<referedAttribute>A8FA4593-EA3A-6A7D-59EB-E7181FAF0687</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO1" id="11EE95FF-407B-C0F5-7EE8-884E41829B3F">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 13:15:54 UTC</createdTime>
+<generatorID>C1F622AD-63E7-0953-647A-4B4500026AA5</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<referedAttribute>02644DFB-588A-8B54-5330-B2136DD6B572</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CORREO_ELECTRONICO" id="A7EA172F-1AE0-945F-CDFB-CE96846557C0">
+<createdBy>LordCoder</createdBy>
+<createdTime>2019-11-19 12:43:19 UTC</createdTime>
+<generatorID>06368C7B-1FFD-976E-DC7E-9C8F75504275</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<referedAttribute>CDB35F18-C740-7360-1F3F-4C5B75C68FE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7684637-667F-972C-8718-71045A96C535" name="MENSAJE PK">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 13:07:29 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>46FEBE26-53D3-57A3-9875-799E13AD7040</attributeRef>
+<attributeRef>11EE95FF-407B-C0F5-7EE8-884E41829B3F</attributeRef>
+<attributeRef>A7EA172F-1AE0-945F-CDFB-CE96846557C0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

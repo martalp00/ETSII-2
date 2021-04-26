@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D03F57F1-A03C-E194-2BDA-CFEB9088DECF" name="JURADO">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:14 UTC</createdTime>
+<generatorID>5E61A7D6-2B93-4B4B-2CBB-E00F272B9964</generatorID>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<engineerTo>
+<item key="A1210533-B6C3-1671-A16A-BD763619427F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DNI2" id="D42EA8AA-A3C1-D9AE-8D26-A1CBBF5C57B7">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:14 UTC</createdTime>
+<generatorID>2840CBAD-38D3-50E3-8246-D056004CAD42</generatorID>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<engineerTo>
+<item key="A1210533-B6C3-1671-A16A-BD763619427F" value="true"/>
+</engineerTo>
+<referedAttribute>8DF9120D-50CC-3A5C-65C3-3CFB5B481F4C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USUARIO" id="576C7806-5099-2704-9BA6-A0F2F5C65560">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:14 UTC</createdTime>
+<generatorID>ECC15918-7AB9-4C6D-F285-B83185A5D86C</generatorID>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<engineerTo>
+<item key="A1210533-B6C3-1671-A16A-BD763619427F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 BYTE</dataTypeSize>
+<ownDataTypeParameters>32 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PASSWORD" id="B9B0C92A-0B91-35C9-3FBF-E57AD1672458">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:14 UTC</createdTime>
+<generatorID>0D7694FB-DDE7-5901-B7B8-2A6D00E43B33</generatorID>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<engineerTo>
+<item key="A1210533-B6C3-1671-A16A-BD763619427F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 BYTE</dataTypeSize>
+<ownDataTypeParameters>32 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OBSERVACIONES" id="775ABD78-EFED-E073-ACCF-C5E4E6EC96F2">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:14 UTC</createdTime>
+<generatorID>FB998941-40A7-395F-C7B4-F74A973BDE8C</generatorID>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<engineerTo>
+<item key="A1210533-B6C3-1671-A16A-BD763619427F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 BYTE</dataTypeSize>
+<ownDataTypeParameters>512 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MODALIDAD" id="08FD55C9-214C-8CF5-BEEA-8D2138AA6D4C">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:14 UTC</createdTime>
+<generatorID>C6C682AD-3F9D-BEC8-98EA-A1F55CFADDD3</generatorID>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<engineerTo>
+<item key="A1210533-B6C3-1671-A16A-BD763619427F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>28400E79-2998-A2DF-2055-26414488F072</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDEN2" id="70E1F892-8096-B7A1-E70B-72BAA9F8D8FD">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:14 UTC</createdTime>
+<generatorID>2642AEBA-3C2D-924A-248E-4E03EBC649B1</generatorID>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<engineerTo>
+<item key="A1210533-B6C3-1671-A16A-BD763619427F" value="true"/>
+</engineerTo>
+<referedAttribute>9C3D7279-2AAA-88BE-2213-FAFB0B2493D3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DCBD0CF4-DFE8-58E9-AED5-423C3D85B5F2" name="JURADO PK">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:14 UTC</createdTime>
+<generatorID>E1E2F5DE-918A-5CF2-6992-49CF5126332E</generatorID>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<engineerTo>
+<item key="A1210533-B6C3-1671-A16A-BD763619427F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D42EA8AA-A3C1-D9AE-8D26-A1CBBF5C57B7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

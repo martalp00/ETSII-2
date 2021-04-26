@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A6C9355E-F58A-B512-AA06-BA153EFA3643" name="ASIGNATURAS">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 13:27:19 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="91BA00AD-97E5-B02B-7008-E33BF05D2712">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 13:27:31 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="A9AC2652-D4FF-BA1F-9559-4C1CBF4B477E">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 13:27:59 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CENTRO" id="DE4D8BAD-C3CA-65EB-30C1-24B5C2A2D304">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 13:28:16 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3F1574F-8DA4-F22A-7F1F-EA22C7598ED8" name="ASIGNATURAS PK">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-08 13:27:58 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<engineerTo>
+<item key="B04E3110-CE1B-B53C-7FA9-54503AEE2F2D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>91BA00AD-97E5-B02B-7008-E33BF05D2712</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

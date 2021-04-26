@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SYS_C0061996" directorySegmentName="seg_0" id="C6C682AD-3F9D-BEC8-98EA-A1F55CFADDD3">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:14 UTC</createdTime>
+<generatorID>35D2BF84-8B0A-22E7-6250-541933791558</generatorID>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<engineerTo>
+<item key="A1210533-B6C3-1671-A16A-BD763619427F" value="true"/>
+</engineerTo>
+<sourcePk>B51D50CE-5D16-01EF-CDB3-30586EEDD97B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B6A708F9-81DF-97D7-5E1D-008DB26CCEF5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D03F57F1-A03C-E194-2BDA-CFEB9088DECF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

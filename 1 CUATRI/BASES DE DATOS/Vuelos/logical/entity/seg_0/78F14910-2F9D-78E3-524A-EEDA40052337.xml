@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="78F14910-2F9D-78E3-524A-EEDA40052337" name="PLANTILLA">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:12 UTC</createdTime>
+<generatorID>73602267-1736-09D3-9148-11E85E28B105</generatorID>
+<ownerDesignName>Vuelos</ownerDesignName>
+<engineerTo>
+<item key="39CE26BE-C163-7336-ACBE-A35435FB4155" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD ASTRO" id="DDE9B91A-F733-75F7-68F9-51F2EA600D11">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:12 UTC</createdTime>
+<generatorID>464FC373-1468-2B4D-FD01-588ECB2612EE</generatorID>
+<ownerDesignName>Vuelos</ownerDesignName>
+<engineerTo>
+<item key="39CE26BE-C163-7336-ACBE-A35435FB4155" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMB AST" id="946ED5C8-4F3F-A731-C3BF-34F939353249">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:12 UTC</createdTime>
+<generatorID>EDC4F4A6-9D8D-15B6-ECAE-E248F4785DBA</generatorID>
+<ownerDesignName>Vuelos</ownerDesignName>
+<engineerTo>
+<item key="39CE26BE-C163-7336-ACBE-A35435FB4155" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CATEG" id="92D4CA25-8779-8197-6BD8-44206E64F4BC">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:12 UTC</createdTime>
+<generatorID>33720D42-5F80-3CED-D949-60BD116622B0</generatorID>
+<ownerDesignName>Vuelos</ownerDesignName>
+<engineerTo>
+<item key="39CE26BE-C163-7336-ACBE-A35435FB4155" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SITUACION" id="9994F878-E810-F0D7-CDD9-9A1EB03DAF58">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:12 UTC</createdTime>
+<generatorID>00649640-FAD6-A333-5E12-982E52C690BF</generatorID>
+<ownerDesignName>Vuelos</ownerDesignName>
+<engineerTo>
+<item key="39CE26BE-C163-7336-ACBE-A35435FB4155" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD SERV" id="487D73AD-1733-A321-F488-F50157CAE296">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:12 UTC</createdTime>
+<generatorID>CDE40A82-B00C-81D6-B03B-CFF8310002DB</generatorID>
+<ownerDesignName>Vuelos</ownerDesignName>
+<engineerTo>
+<item key="39CE26BE-C163-7336-ACBE-A35435FB4155" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMB SERV" id="EE86EC7C-BE2A-BF4C-8EC9-188F6F46583E">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:12 UTC</createdTime>
+<generatorID>0092AAC6-D5C7-E736-CF9C-0A461227880B</generatorID>
+<ownerDesignName>Vuelos</ownerDesignName>
+<engineerTo>
+<item key="39CE26BE-C163-7336-ACBE-A35435FB4155" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA" id="1D938CA2-0618-F40F-C5AA-19B6662718B5">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:12 UTC</createdTime>
+<generatorID>97BCCA3D-2A38-509E-137F-40EBDC84B012</generatorID>
+<ownerDesignName>Vuelos</ownerDesignName>
+<engineerTo>
+<item key="39CE26BE-C163-7336-ACBE-A35435FB4155" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEGURIDAD" id="3CDDAEA3-9709-086D-A75B-B20D7C780ED2">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:12 UTC</createdTime>
+<generatorID>B0001EA3-CDD1-0FDB-0393-818780C92F2E</generatorID>
+<ownerDesignName>Vuelos</ownerDesignName>
+<engineerTo>
+<item key="39CE26BE-C163-7336-ACBE-A35435FB4155" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD VUELO" id="C51D4E47-37F3-3916-561D-FE624F42752C">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:12 UTC</createdTime>
+<generatorID>CE3CDBAA-53C0-11CE-7501-4D4BF342436E</generatorID>
+<ownerDesignName>Vuelos</ownerDesignName>
+<engineerTo>
+<item key="39CE26BE-C163-7336-ACBE-A35435FB4155" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO NAVE" id="8D9491A3-E570-BCC2-A8B1-06E0388D188A">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:12 UTC</createdTime>
+<generatorID>D3D2AFFE-F4F5-2D92-7D28-8CD980A89D51</generatorID>
+<ownerDesignName>Vuelos</ownerDesignName>
+<engineerTo>
+<item key="39CE26BE-C163-7336-ACBE-A35435FB4155" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="UBD161" directorySegmentName="seg_0" id="1841F9ED-D2E1-28ED-EA16-78F22BB257C2">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjName>UBD161</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:10:33 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<schemaObject>DE1C485E-45DA-8727-70C7-44595B540B49</schemaObject>
+<defTableSpace>3EE9B7E3-04F1-B2DA-5F15-8F561D56ABA3</defTableSpace>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="6F155E92-B9D6-6BE1-9335-37D5ACCADCC9">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:44:22 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<size>10485760</size>
+<tableSpace>3EE9B7E3-04F1-B2DA-5F15-8F561D56ABA3</tableSpace>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

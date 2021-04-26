@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FFE1154A-3B80-469D-9435-D7EB97B84DC2" containerWithKeyObject="48D3A369-0B94-01A8-2B0F-6CBE98B377EA" localFKIndex="AF04ED50-1C3B-5DE5-073F-97EC527D3300" name="IMAGEN_FK1">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>IMAGEN_FK1</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>86D83E37-52CA-BC81-CCCA-7A512C47F2E3</importedID>
+<referredTableLongName>UBD161.FOTOGRAFO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FD3713F3-7441-FBEF-6464-0FD7B36BA174</referredTableID>
+<keyObject>28B48B3B-7C33-08E4-A0D9-CB5957F8DC7C</keyObject>
+<referredKeyID>28B48B3B-7C33-08E4-A0D9-CB5957F8DC7C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DNI</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

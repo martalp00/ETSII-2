@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="D60693AB-027B-B736-A223-DB4906022CB8">
+<createdBy>marta</createdBy>
+<createdTime>2020-09-07 01:36:11 UTC</createdTime>
+<ownerDesignName>parques naturales</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

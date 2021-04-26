@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80079B45-C0F1-08F7-433C-B94D39E36458" name="Relation_13">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USUARIO_CORREO_ELECTRONICO" id="5F0F5EE0-6670-BB16-A290-2738BB9DE729">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABA01592-D430-776F-0BBE-AB18767A0FBB" referredColumn="1A979720-34F4-2CD9-A89E-6E8B43FB665C"/>
+</associations>
+</Column>
+<Column name="ASIGNATURAS_CODIGO" id="462E7A38-5FC2-67B0-75FC-AABB90D5A32D">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E12A79F-1709-CA9C-CF38-305C27893EC3" referredColumn="CF14011F-E444-506B-CE73-55832DD2665A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F9E1DE2-0D01-FE9B-075E-B2C742048E49" name="Relation_13_PK">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F0F5EE0-6670-BB16-A290-2738BB9DE729"/>
+<colUsage columnID="462E7A38-5FC2-67B0-75FC-AABB90D5A32D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6071C9F5-0E96-C6A0-B18B-0387FD2DDAC7" name="Relation_13_USUARIO_FK">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>518AA509-10A9-B56D-2B31-7A18B7E902B5</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F0F5EE0-6670-BB16-A290-2738BB9DE729"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBE1511E-C6F3-9ED3-9D8E-CF4917D05261" name="Relation_13_ASIGNATURAS_FK">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>518AA509-10A9-B56D-2B31-7A18B7E902B5</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="462E7A38-5FC2-67B0-75FC-AABB90D5A32D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

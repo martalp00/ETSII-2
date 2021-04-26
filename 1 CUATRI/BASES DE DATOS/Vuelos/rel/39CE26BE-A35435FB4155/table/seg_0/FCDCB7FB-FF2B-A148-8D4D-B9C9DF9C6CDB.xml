@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCDCB7FB-FF2B-A148-8D4D-B9C9DF9C6CDB" schemaObject="DE1C485E-45DA-8727-70C7-44595B540B49" name="HABITA">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>HABITA</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<importedID>C62A8F03-9EFF-A31A-51A9-D4A2E2263EA4</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="C_PLANETA" id="49308B6A-6AC1-8CB9-7256-A55695C2BBB7">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>HABITA</sourceObjSchema>
+<sourceObjName>C_PLANETA</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<importedID>C5AD032A-08A0-1162-BDF0-F367ABF5048E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F23E3ED7-9743-76AB-DDFA-C0942D79A20E" referredColumn="9CB3CC22-AEDF-C3A0-4C87-BDD19D18880A"/>
+</associations>
+</Column>
+<Column name="ESPECIE" id="5855BDE5-B2E8-5CE4-7717-9609857BDA2A">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>HABITA</sourceObjSchema>
+<sourceObjName>ESPECIE</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<importedID>83A3FB8C-62C5-6ABE-1A36-F60E390164DE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7FC0EFB-6F74-5474-849F-196B9DC813E4" referredColumn="6F3F2516-5A6D-668A-58B0-5047E960BC76"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42A60F33-571C-B71F-F2CE-F9D2FB2D913D" name="HABITA_PK">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>HABITA_PK</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<importedID>E93C37FD-7A6D-9C14-84FD-55F3A44AD39C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49308B6A-6AC1-8CB9-7256-A55695C2BBB7"/>
+<colUsage columnID="5855BDE5-B2E8-5CE4-7717-9609857BDA2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBBCFCF8-3C10-2C17-9C06-CAC0AD8243A8" schemaObject="DE1C485E-45DA-8727-70C7-44595B540B49" name="HABITA_PK">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>HABITA_PK</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<importedID>9F3A8657-E6B1-DFB6-3D63-06BD989EAE0D</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49308B6A-6AC1-8CB9-7256-A55695C2BBB7"/>
+<colUsage columnID="5855BDE5-B2E8-5CE4-7717-9609857BDA2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B06C1EAE-D46F-7310-D499-36C7CAD022A1" name="HABITA_FK1">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49308B6A-6AC1-8CB9-7256-A55695C2BBB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B8B2E75-6192-4FB4-42B9-91474D63D11D" name="HABITA_FK2">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5855BDE5-B2E8-5CE4-7717-9609857BDA2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33CDEB54-6518-F1C2-2999-8D68E8812FF8" schemaObject="DE1C485E-45DA-8727-70C7-44595B540B49" name="INTELIGENTES">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>INTELIGENTES</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<importedID>A8E614C5-3511-354C-7DDE-2F4D39ACF7A8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LENGUA" id="6653798D-04E8-56C8-BAC5-D063721442C2">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>INTELIGENTES</sourceObjSchema>
+<sourceObjName>LENGUA</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<importedID>03F51EDA-F22A-F666-4709-3BC606197060</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESCRITURA" id="F24A416F-0C0D-E1B4-95FD-4E2C3211EEA1">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>INTELIGENTES</sourceObjSchema>
+<sourceObjName>ESCRITURA</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<importedID>89E10641-FA1D-0E7F-4BC2-B6988EA9378E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PINTURA" id="D1113F5B-B0C4-6B5F-621C-300020F5F0A3">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>INTELIGENTES</sourceObjSchema>
+<sourceObjName>PINTURA</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<importedID>C00FEB7A-A7FB-1409-0A5B-25B7F7333A82</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDEN_SOCIAL" id="D5E1C694-4E6A-7F2A-C334-C4F225288010">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>INTELIGENTES</sourceObjSchema>
+<sourceObjName>ORDEN_SOCIAL</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<importedID>3E047488-09C4-1019-88E2-FFA8522B69D5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESPECIE" id="6C43DAE1-82FE-D810-D895-4C00281AD242">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>INTELIGENTES</sourceObjSchema>
+<sourceObjName>ESPECIE</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<importedID>E446B70F-7080-2185-6BD6-D5DA1C7903D2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="206C3269-5278-7A2C-6481-FCB8B9932C1B" referredColumn="6F3F2516-5A6D-668A-58B0-5047E960BC76"/>
+</associations>
+</Column>
+<Column name="PROVIENE_DE" id="2CCA08A8-F098-56DF-E0F3-ADECC6FEE8A3">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>INTELIGENTES</sourceObjSchema>
+<sourceObjName>PROVIENE_DE</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<importedID>42FC6503-D8AB-6715-0FDA-58E7DD760F9B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F2E7678-CBC8-8B4E-2E19-052BF09C3D03" referredColumn="9CB3CC22-AEDF-C3A0-4C87-BDD19D18880A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6903F21F-B8F3-0DF3-6DB3-6E5F52EC7385" name="INTELIGENTES_PK">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>INTELIGENTES_PK</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<importedID>411C67E7-BD0D-9D3B-3E48-9AADF5E79D86</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C43DAE1-82FE-D810-D895-4C00281AD242"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71024186-6B1D-3E2D-5282-06CBD36C3A95" name="INTELIGENTES_UK1">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>INTELIGENTES_UK1</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<importedID>8DDC6227-7721-2601-8F45-4EFA54FA4D2C</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CCA08A8-F098-56DF-E0F3-ADECC6FEE8A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2AD20B86-F2CD-C370-59FE-9271DAB3C6AB" schemaObject="DE1C485E-45DA-8727-70C7-44595B540B49" name="INTELIGENTES_PK">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>INTELIGENTES_PK</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<importedID>6B569B62-48D5-A9DF-7FA0-6C549F411314</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C43DAE1-82FE-D810-D895-4C00281AD242"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C367E1B-FACC-AB03-F5A9-E25A91C7BD49" schemaObject="DE1C485E-45DA-8727-70C7-44595B540B49" name="INTELIGENTES_UK1">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>INTELIGENTES_UK1</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<importedID>A94F4003-6C61-E157-DB60-02632291EA44</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CCA08A8-F098-56DF-E0F3-ADECC6FEE8A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEB79515-63E3-AEED-3DEA-2386FB3876AF" name="INTELIGENTES_FK1">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C43DAE1-82FE-D810-D895-4C00281AD242"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52AA4556-8D27-0F48-01B0-E17253EF6939" name="SYS_C0027078">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CCA08A8-F098-56DF-E0F3-ADECC6FEE8A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

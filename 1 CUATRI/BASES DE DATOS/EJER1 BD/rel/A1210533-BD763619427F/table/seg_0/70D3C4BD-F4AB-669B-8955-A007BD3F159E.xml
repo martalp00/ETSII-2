@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70D3C4BD-F4AB-669B-8955-A007BD3F159E" schemaObject="DF619CB8-7E76-57C0-3EDA-0D5E7245F85B" name="CATEGORIA">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>CATEGORIA</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:06 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>4E235681-8236-8F8D-FFCF-E1D81C539C85</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDENTIFICADOR" id="640959B9-4E37-C986-CA14-ED9F6D321D7D">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>CATEGORIA</sourceObjSchema>
+<sourceObjName>IDENTIFICADOR</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:06 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>1E27402E-985B-A43D-F58F-65B6A5E1790C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="DD4B7480-0794-9D60-7679-2F35BCD7206A">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>CATEGORIA</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:06 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>4570367D-176C-6490-0C82-E78B2B10D1B7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="C2D8F27F-19E0-AA4F-B5B7-777BA0C76B24">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>CATEGORIA</sourceObjSchema>
+<sourceObjName>DESCRIPCION</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:06 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>AE3EFD9B-0F65-8906-5A9E-C95CA00BDE57</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDEN2" id="B924E65A-F214-5AE3-B9FF-9C1B9D49052B">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>CATEGORIA</sourceObjSchema>
+<sourceObjName>IDEN2</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:06 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>1E6233E4-5A8C-13F9-D67C-8CF59BD8A5F7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1309AB19-3D05-30D1-CA3F-3DD80C611A17" referredColumn="640959B9-4E37-C986-CA14-ED9F6D321D7D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FD3ABD0-0E69-5512-5C15-0C02E0294949" name="CATEGORIA_PK">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>CATEGORIA_PK</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:06 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>B234BDFF-2D70-2606-2ECF-B902FB430E23</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="640959B9-4E37-C986-CA14-ED9F6D321D7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99923439-6240-758D-1484-8CBF2BE9FFB3" name="CATEGORIA_UK1">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>CATEGORIA_UK1</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:06 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>98EF77E3-EB4D-AB02-8800-88FCF56D5DFC</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD4B7480-0794-9D60-7679-2F35BCD7206A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0853537-6F95-5E6C-669E-6B1EA107EF25" schemaObject="DF619CB8-7E76-57C0-3EDA-0D5E7245F85B" name="CATEGORIA_PK">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>CATEGORIA_PK</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:06 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>3DAC3CDC-E360-D3DF-FA44-FA169C3E5E72</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="640959B9-4E37-C986-CA14-ED9F6D321D7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70531BA9-B3EF-423F-2AED-8601A550BFF6" schemaObject="DF619CB8-7E76-57C0-3EDA-0D5E7245F85B" name="CATEGORIA_UK1">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>CATEGORIA_UK1</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:06 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>64D1F2F6-4E07-3C88-F8D9-FEBA8FD37B11</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD4B7480-0794-9D60-7679-2F35BCD7206A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3E483C3-851F-CDCC-B213-E040D1ACC22E" name="CATEGORIA_FK1">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B924E65A-F214-5AE3-B9FF-9C1B9D49052B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

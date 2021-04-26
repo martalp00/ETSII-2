@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ESCALAS" directorySegmentName="seg_0" id="12A0888D-A20E-23A1-73FB-8BFA4E59EE61">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<schemaObject>DE1C485E-45DA-8727-70C7-44595B540B49</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>31771CC7-A156-6EC5-6C33-CFB679DDB561</segment>
+<tableSpace>3EE9B7E3-04F1-B2DA-5F15-8F561D56ABA3</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="VUELO" id="2F16B5E8-25D5-626D-5D85-A2174816FE9A">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_PARADA" id="67956512-18E1-82B0-ACDC-85DDDD12274A">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DURACION_PARADA" id="A0689C2B-A01C-7F55-AE65-FF080D9290BC">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PLANETA_PARADA" id="A6357B63-E423-1306-115A-C9C363A2F67C">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0027073" id="91B11233-E6D5-42CD-F613-E2881029D3EC">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0027074" id="A05DD664-5E1A-F6CC-F016-371DCE72BB52">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ESCALAS_PK" id="A503D1E9-450A-A5FF-6D76-A656C35B7A67">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<schemaObject>DE1C485E-45DA-8727-70C7-44595B540B49</schemaObject>
+<segment>C7DE5CB2-2F62-737C-35CE-8C14BE7407D4</segment>
+<tableSpace>3EE9B7E3-04F1-B2DA-5F15-8F561D56ABA3</tableSpace>
+<indexSegment>C7DE5CB2-2F62-737C-35CE-8C14BE7407D4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

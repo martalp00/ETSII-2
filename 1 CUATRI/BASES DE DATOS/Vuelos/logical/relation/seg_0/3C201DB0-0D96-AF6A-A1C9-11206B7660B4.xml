@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="INTELIGENTES_FK1" directorySegmentName="seg_0" id="3C201DB0-0D96-AF6A-A1C9-11206B7660B4">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:12 UTC</createdTime>
+<generatorID>206C3269-5278-7A2C-6481-FCB8B9932C1B</generatorID>
+<ownerDesignName>Vuelos</ownerDesignName>
+<engineerTo>
+<item key="39CE26BE-C163-7336-ACBE-A35435FB4155" value="true"/>
+</engineerTo>
+<sourcePk>ABB5E241-0494-B85F-01C9-4A32EF2E4841</sourcePk>
+<dominantRole>035F7F4C-2570-4D79-7711-0A2311EC8C49</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>035F7F4C-2570-4D79-7711-0A2311EC8C49</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>69C73DD1-3AB8-0229-06C0-818E26EA1122</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

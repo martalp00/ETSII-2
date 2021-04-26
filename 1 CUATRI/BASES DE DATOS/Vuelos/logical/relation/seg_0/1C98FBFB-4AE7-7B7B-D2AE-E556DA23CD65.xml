@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SYS_C0027073" directorySegmentName="seg_0" id="1C98FBFB-4AE7-7B7B-D2AE-E556DA23CD65">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:12 UTC</createdTime>
+<generatorID>BF1E6ED6-EBD3-CDC8-1DED-80D6BF8B3E1C</generatorID>
+<ownerDesignName>Vuelos</ownerDesignName>
+<engineerTo>
+<item key="39CE26BE-C163-7336-ACBE-A35435FB4155" value="true"/>
+</engineerTo>
+<sourcePk>13AADC93-9272-FC4A-A553-EBA8F64BEFF6</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F164CD2F-354D-A8BB-4BE2-08119A2614F3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>11BB3E34-EC2F-81CD-4283-96510500A5E5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

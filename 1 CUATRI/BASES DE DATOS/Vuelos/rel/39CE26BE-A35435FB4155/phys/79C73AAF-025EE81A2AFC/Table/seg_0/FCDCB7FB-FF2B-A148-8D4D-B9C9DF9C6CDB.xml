@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="HABITA" directorySegmentName="seg_0" id="FCDCB7FB-FF2B-A148-8D4D-B9C9DF9C6CDB">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<schemaObject>DE1C485E-45DA-8727-70C7-44595B540B49</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>3E5D12E2-A0E9-CEC9-F58D-73485941A08D</segment>
+<tableSpace>3EE9B7E3-04F1-B2DA-5F15-8F561D56ABA3</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="C_PLANETA" id="49308B6A-6AC1-8CB9-7256-A55695C2BBB7">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESPECIE" id="5855BDE5-B2E8-5CE4-7717-9609857BDA2A">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="HABITA_PK" id="EBBCFCF8-3C10-2C17-9C06-CAC0AD8243A8">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<schemaObject>DE1C485E-45DA-8727-70C7-44595B540B49</schemaObject>
+<segment>2F5A1BBB-58CB-9B33-B304-756045B1D674</segment>
+<tableSpace>3EE9B7E3-04F1-B2DA-5F15-8F561D56ABA3</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HABITA_FK2" id="4B8B2E75-6192-4FB4-42B9-91474D63D11D">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HABITA_FK1" id="B06C1EAE-D46F-7310-D499-36C7CAD022A1">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HABITA_PK" id="42A60F33-571C-B71F-F2CE-F9D2FB2D913D">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<segment>2F5A1BBB-58CB-9B33-B304-756045B1D674</segment>
+<tableSpace>3EE9B7E3-04F1-B2DA-5F15-8F561D56ABA3</tableSpace>
+<existingIndex>EBBCFCF8-3C10-2C17-9C06-CAC0AD8243A8</existingIndex>
+<indexSegment>2F5A1BBB-58CB-9B33-B304-756045B1D674</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

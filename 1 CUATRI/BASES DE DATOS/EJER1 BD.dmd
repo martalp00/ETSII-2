@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="EJER1 BD" id="BB4FFD8F-6A12-AEB1-02FB-31D126267972" version="3.5">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 19:57:19 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BB4FFD8F-6A12-AEB1-02FB-31D126267972</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="D390E3FE-F9D8-A463-AC17-AB91E026C109">
+<designStoragePath>F:\</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="7FC45C6E-7F91-C141-2517-2821C2CBD6E9">
+<designStoragePath>F:\</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="B3704EDC-AF49-FF71-41B0-1496DF586AD1">
+<designStoragePath>F:\</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

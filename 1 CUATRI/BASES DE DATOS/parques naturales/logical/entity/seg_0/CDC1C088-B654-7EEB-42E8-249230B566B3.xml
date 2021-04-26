@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDC1C088-B654-7EEB-42E8-249230B566B3" name="ESPECIES">
+<createdBy>marta</createdBy>
+<createdTime>2020-09-07 01:39:13 UTC</createdTime>
+<ownerDesignName>parques naturales</ownerDesignName>
+<engineerTo>
+<item key="0412ABBC-9FCC-9E77-DEAD-AD530E46A9C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="N cientif" id="52AE042D-FD9D-DEEF-5DDB-FCE58F386C15">
+<createdBy>marta</createdBy>
+<createdTime>2020-09-07 01:39:19 UTC</createdTime>
+<ownerDesignName>parques naturales</ownerDesignName>
+<engineerTo>
+<item key="0412ABBC-9FCC-9E77-DEAD-AD530E46A9C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="N comun" id="8CF857AC-60C1-79F0-8AD1-C4B98A9B3F80">
+<createdBy>marta</createdBy>
+<createdTime>2020-09-07 01:39:29 UTC</createdTime>
+<ownerDesignName>parques naturales</ownerDesignName>
+<engineerTo>
+<item key="0412ABBC-9FCC-9E77-DEAD-AD530E46A9C7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vida media" id="6AE9D5D8-1D1C-0EE3-A886-5D82B8884B0B">
+<createdBy>marta</createdBy>
+<createdTime>2020-09-07 01:39:36 UTC</createdTime>
+<ownerDesignName>parques naturales</ownerDesignName>
+<engineerTo>
+<item key="0412ABBC-9FCC-9E77-DEAD-AD530E46A9C7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hectareas necesarias" id="C31BC519-DFED-A7A5-351B-ADFA5094ED43">
+<createdBy>marta</createdBy>
+<createdTime>2020-09-07 01:39:42 UTC</createdTime>
+<ownerDesignName>parques naturales</ownerDesignName>
+<engineerTo>
+<item key="0412ABBC-9FCC-9E77-DEAD-AD530E46A9C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D795AC89-FE41-9FC7-A697-DE73F6A03CFB" name="nombre cientif">
+<createdBy>marta</createdBy>
+<createdTime>2020-09-07 01:59:14 UTC</createdTime>
+<ownerDesignName>parques naturales</ownerDesignName>
+<engineerTo>
+<item key="0412ABBC-9FCC-9E77-DEAD-AD530E46A9C7" value="true"/>
+</engineerTo>
+<deprecated>true</deprecated>
+<newElementsIDs>52AE042D-FD9D-DEEF-5DDB-FCE58F386C15</newElementsIDs>
+<usedAttributes>
+<attributeRef>52AE042D-FD9D-DEEF-5DDB-FCE58F386C15</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="3754A90D-0285-C038-64E9-83DCDFF1C803" name="ESPECIES PK">
+<createdBy>marta</createdBy>
+<createdTime>2020-09-07 02:00:28 UTC</createdTime>
+<ownerDesignName>parques naturales</ownerDesignName>
+<engineerTo>
+<item key="0412ABBC-9FCC-9E77-DEAD-AD530E46A9C7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8CF857AC-60C1-79F0-8AD1-C4B98A9B3F80</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

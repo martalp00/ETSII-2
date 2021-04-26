@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A10ABA7-278C-2EA0-E4DA-EB76C5C9B6E6" schemaObject="DE1C485E-45DA-8727-70C7-44595B540B49" name="PLANETA">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>PLANETA</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<importedID>857FF5E6-EB8D-6E6C-5051-00B816AE0809</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="9CB3CC22-AEDF-C3A0-4C87-BDD19D18880A">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>PLANETA</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<importedID>10F7E222-3CCA-BF0A-2362-AF8A14FD6D1E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="95598A02-EDFB-375E-9E79-8371D3C177FF">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>PLANETA</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<importedID>CE0C4552-5816-B24A-3A74-0FF2D642AA02</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIAMETRO" id="558F2480-5B6D-164B-5615-BC31FFFD8C08">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>PLANETA</sourceObjSchema>
+<sourceObjName>DIAMETRO</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<importedID>08832779-A359-3A4D-30A1-C01B4353FF5D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GALAXIA" id="E3F23588-747A-E1AC-C1CD-13AEBEBF63B5">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>PLANETA</sourceObjSchema>
+<sourceObjName>GALAXIA</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<importedID>EBA29A9E-DAB6-5177-38D3-A9864C3EF9F4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FCFC581F-3C1D-070B-60AC-BFBA05DFB84D" schemaObject="DE1C485E-45DA-8727-70C7-44595B540B49" name="PLANETA_PK">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>SYS_C0027068</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<importedID>6DCAA6C5-A023-CB23-37C4-254E8B17331C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CB3CC22-AEDF-C3A0-4C87-BDD19D18880A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

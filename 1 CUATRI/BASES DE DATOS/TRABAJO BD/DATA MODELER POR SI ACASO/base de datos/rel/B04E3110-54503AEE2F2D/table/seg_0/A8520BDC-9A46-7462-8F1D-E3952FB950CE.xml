@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8520BDC-9A46-7462-8F1D-E3952FB950CE" name="MENSAJE">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>96072D54-CC33-C38A-1062-7A43995F717A</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FECHA" id="351387A8-0E59-49B1-37B0-20BC5AB8BFFD">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>46FEBE26-53D3-57A3-9875-799E13AD7040</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITULO" id="6CEF356D-3438-DE50-FC1B-193E32D4B0F3">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>93376B44-2DDD-832B-AAE1-85D75BF97694</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENIDO" id="5A32AA21-4BE3-E85F-408F-62F9DFAE754F">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>4617DC1C-2C9D-018E-1753-821D8F9F5D40</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLEADOS_DNI" id="0074806C-0D42-8CEE-3E16-EFD1B62EF8F1">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>26C00903-2846-7540-4710-F572D3B1DF26</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA192CCD-71E9-F9B6-6C4E-16D59C728855" referredColumn="DE57E4F9-E210-C549-6182-20180E3C6340"/>
+</associations>
+</Column>
+<Column name="EMPLEADOS_CODIGO" id="427E4814-0959-855D-BA8B-A1C330163051">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>03EBCD7E-0BE9-93A1-FFFE-6DFFFD478FF4</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA192CCD-71E9-F9B6-6C4E-16D59C728855" referredColumn="546B3BBB-9B03-2596-DC1B-D9CC9FBEE2C2"/>
+</associations>
+</Column>
+<Column name="ONG_CODIGO" id="FF9163A0-85BE-5D2A-3068-89F3EB7066E6">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>11EE95FF-407B-C0F5-7EE8-884E41829B3F</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="047CBEE5-8FBF-504B-D53A-06E0DB6C80AD" referredColumn="B95C1D86-0B47-5119-9A23-8AEC2B6AD87F"/>
+</associations>
+</Column>
+<Column name="USUARIO_CORREO_ELECTRONICO" id="A19F7AE7-A08F-A991-CEE6-679DC427C6DD">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>A7EA172F-1AE0-945F-CDFB-CE96846557C0</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32661C93-EB29-C420-58A3-F54B0EBDB3EE" referredColumn="1A979720-34F4-2CD9-A89E-6E8B43FB665C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF3FE08C-0844-76B7-C6CF-B3B98E69EAA1" name="MENSAJE_PK">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>D7684637-667F-972C-8718-71045A96C535</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="351387A8-0E59-49B1-37B0-20BC5AB8BFFD"/>
+<colUsage columnID="FF9163A0-85BE-5D2A-3068-89F3EB7066E6"/>
+<colUsage columnID="A19F7AE7-A08F-A991-CEE6-679DC427C6DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDF0548B-58D3-B043-B1F6-51140C11B386" name="MENSAJE_EMPLEADOS_FK">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>8FE29EE7-5022-306D-9897-3CE5D6EF6E23</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0074806C-0D42-8CEE-3E16-EFD1B62EF8F1"/>
+<colUsage columnID="427E4814-0959-855D-BA8B-A1C330163051"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="432F18E7-80E7-AF12-B292-E5F8D9158EDA" name="MENSAJE_ONG_FK">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>C1F622AD-63E7-0953-647A-4B4500026AA5</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF9163A0-85BE-5D2A-3068-89F3EB7066E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B965233-175B-DCD2-1AD2-E85EAE743373" name="MENSAJE_USUARIO_FK">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>06368C7B-1FFD-976E-DC7E-9C8F75504275</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A19F7AE7-A08F-A991-CEE6-679DC427C6DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47064D52-B401-ABAB-7CAB-8FADFF774F35" name="EMPLEADOS">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-03 18:14:10 UTC</createdTime>
+<ownerDesignName>MotoGP</ownerDesignName>
+<engineerTo>
+<item key="9781846E-F1F9-AE69-455E-62F9EFCC27EF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Codigo" id="E8D98922-D85E-46CE-7F89-6979EF5160EF">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-03 20:09:38 UTC</createdTime>
+<ownerDesignName>MotoGP</ownerDesignName>
+<engineerTo>
+<item key="9781846E-F1F9-AE69-455E-62F9EFCC27EF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="C603588C-E777-F541-BAAC-A752ED7DDC2E">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-03 20:09:52 UTC</createdTime>
+<ownerDesignName>MotoGP</ownerDesignName>
+<engineerTo>
+<item key="9781846E-F1F9-AE69-455E-62F9EFCC27EF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nacimiento" id="9F4BF0BE-8603-5A52-61BD-5906AE2FD6CA">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-03 20:10:00 UTC</createdTime>
+<ownerDesignName>MotoGP</ownerDesignName>
+<engineerTo>
+<item key="9781846E-F1F9-AE69-455E-62F9EFCC27EF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pasaporte" id="6ABC456B-C78A-2F6F-E73E-C4D8E903C8DB">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-03 20:10:09 UTC</createdTime>
+<ownerDesignName>MotoGP</ownerDesignName>
+<engineerTo>
+<item key="9781846E-F1F9-AE69-455E-62F9EFCC27EF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="País" id="6E056BA2-E109-22CF-B1C6-B1F56EFC755C">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-03 20:10:17 UTC</createdTime>
+<ownerDesignName>MotoGP</ownerDesignName>
+<engineerTo>
+<item key="9781846E-F1F9-AE69-455E-62F9EFCC27EF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre1" id="06878FDB-772F-1601-1ABC-700C7DC0E8B2">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-03 20:29:45 UTC</createdTime>
+<generatorID>4D66FBCF-1029-8359-CAB4-5806E88B361D</generatorID>
+<ownerDesignName>MotoGP</ownerDesignName>
+<engineerTo>
+<item key="9781846E-F1F9-AE69-455E-62F9EFCC27EF" value="true"/>
+</engineerTo>
+<referedAttribute>2F713CD0-768F-AD9A-B6D6-DBAE39B7E807</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="16F2F2BA-EC20-5321-CE05-E963BF4E1F9F" name="EMPLEADOS PK">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-03 20:09:48 UTC</createdTime>
+<ownerDesignName>MotoGP</ownerDesignName>
+<engineerTo>
+<item key="9781846E-F1F9-AE69-455E-62F9EFCC27EF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E8D98922-D85E-46CE-7F89-6979EF5160EF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

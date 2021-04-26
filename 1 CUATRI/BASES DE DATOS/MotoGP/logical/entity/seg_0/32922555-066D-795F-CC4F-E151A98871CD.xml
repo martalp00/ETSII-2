@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="32922555-066D-795F-CC4F-E151A98871CD" name="ENTRENAMIENTOS">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-03 18:15:38 UTC</createdTime>
+<ownerDesignName>MotoGP</ownerDesignName>
+<engineerTo>
+<item key="9781846E-F1F9-AE69-455E-62F9EFCC27EF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Sesion" id="CAA71A7B-828A-E4F6-C523-2C182A209A7E">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-03 20:15:01 UTC</createdTime>
+<ownerDesignName>MotoGP</ownerDesignName>
+<engineerTo>
+<item key="9781846E-F1F9-AE69-455E-62F9EFCC27EF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tiempo Entrenamientos" id="F8DE22B4-4F26-E993-B1FA-FEC8201835BC">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-03 20:15:07 UTC</createdTime>
+<ownerDesignName>MotoGP</ownerDesignName>
+<engineerTo>
+<item key="9781846E-F1F9-AE69-455E-62F9EFCC27EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TiempoVueltas" id="21FFDE50-07D6-CE5D-D1E3-083C9006F836">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-03 20:15:39 UTC</createdTime>
+<ownerDesignName>MotoGP</ownerDesignName>
+<engineerTo>
+<item key="9781846E-F1F9-AE69-455E-62F9EFCC27EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TiempoTramos" id="4A2C5184-2715-A2BA-78CA-BDCEA5143732">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-03 20:15:49 UTC</createdTime>
+<ownerDesignName>MotoGP</ownerDesignName>
+<engineerTo>
+<item key="9781846E-F1F9-AE69-455E-62F9EFCC27EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="47E03D0A-9BFA-43AB-1706-D8F469EAD992">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-03 20:34:57 UTC</createdTime>
+<generatorID>2D2D38D8-77E8-5BCE-0488-CF8AB95EABAF</generatorID>
+<ownerDesignName>MotoGP</ownerDesignName>
+<engineerTo>
+<item key="9781846E-F1F9-AE69-455E-62F9EFCC27EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>90A8798A-16DF-4A1D-6351-91149B4D813A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="8B5D168A-5C27-4A48-1495-6B25A5BEB67F">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-03 20:34:57 UTC</createdTime>
+<generatorID>2D2D38D8-77E8-5BCE-0488-CF8AB95EABAF</generatorID>
+<ownerDesignName>MotoGP</ownerDesignName>
+<engineerTo>
+<item key="9781846E-F1F9-AE69-455E-62F9EFCC27EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6A7D19BF-86A4-26E6-4F4F-9AC61760679F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="82437F71-9A8F-AC82-AA80-A95847E0ABDF" name="ENTRENAMIENTOS PK">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-03 20:15:05 UTC</createdTime>
+<ownerDesignName>MotoGP</ownerDesignName>
+<engineerTo>
+<item key="9781846E-F1F9-AE69-455E-62F9EFCC27EF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CAA71A7B-828A-E4F6-C523-2C182A209A7E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

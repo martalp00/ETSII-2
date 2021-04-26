@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PLANETA" directorySegmentName="seg_0" id="5A10ABA7-278C-2EA0-E4DA-EB76C5C9B6E6">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<schemaObject>DE1C485E-45DA-8727-70C7-44595B540B49</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>31771CC7-A156-6EC5-6C33-CFB679DDB561</segment>
+<tableSpace>3EE9B7E3-04F1-B2DA-5F15-8F561D56ABA3</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DIAMETRO" id="558F2480-5B6D-164B-5615-BC31FFFD8C08">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="95598A02-EDFB-375E-9E79-8371D3C177FF">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO" id="9CB3CC22-AEDF-C3A0-4C87-BDD19D18880A">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GALAXIA" id="E3F23588-747A-E1AC-C1CD-13AEBEBF63B5">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PLANETA_PK" id="FCFC581F-3C1D-070B-60AC-BFBA05DFB84D">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<schemaObject>DE1C485E-45DA-8727-70C7-44595B540B49</schemaObject>
+<segment>C7DE5CB2-2F62-737C-35CE-8C14BE7407D4</segment>
+<tableSpace>3EE9B7E3-04F1-B2DA-5F15-8F561D56ABA3</tableSpace>
+<indexSegment>C7DE5CB2-2F62-737C-35CE-8C14BE7407D4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

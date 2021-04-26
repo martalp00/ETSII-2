@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B95F4EF3-D5A3-D9E4-4106-41DE63892B58" name="Relation_7">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SERVICIOS_CODIGO" id="EE01CF94-85F3-A083-AF6D-C99F26358E2F">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>255</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B607C104-21A3-0AFD-9E52-F9A15FE54D52" referredColumn="13BF46CA-2BD5-6B92-709D-B7AB0D69B6D7"/>
+</associations>
+</Column>
+<Column name="SERVICIOS_ONG_CODIGO" id="287E7D38-2816-1F6B-9139-FE720859F283">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B607C104-21A3-0AFD-9E52-F9A15FE54D52" referredColumn="CEC6CDF1-5E6A-B769-E45C-040996359FE6"/>
+</associations>
+</Column>
+<Column name="EMPLEADOS_DNI" id="E5A24C5B-7BE3-8F71-9F62-3967214F0FB6">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7DB8AF8-BC83-7C6D-F0B1-84CA36121F7E" referredColumn="DE57E4F9-E210-C549-6182-20180E3C6340"/>
+</associations>
+</Column>
+<Column name="EMPLEADOS_ONG_CODIGO" id="5E2434B9-CE60-1BF1-9C2D-6F4154015869">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7DB8AF8-BC83-7C6D-F0B1-84CA36121F7E" referredColumn="546B3BBB-9B03-2596-DC1B-D9CC9FBEE2C2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98D4F68D-C313-9E27-A0E7-73B76C294B37" name="Relation_7_PK">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE01CF94-85F3-A083-AF6D-C99F26358E2F"/>
+<colUsage columnID="287E7D38-2816-1F6B-9139-FE720859F283"/>
+<colUsage columnID="E5A24C5B-7BE3-8F71-9F62-3967214F0FB6"/>
+<colUsage columnID="5E2434B9-CE60-1BF1-9C2D-6F4154015869"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF612E78-A371-68F4-F1FD-DE14E9F10998" name="Relation_7_SERVICIOS_FK">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>25C4F6DF-186F-6510-3FD4-9BC6BCAD389B</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE01CF94-85F3-A083-AF6D-C99F26358E2F"/>
+<colUsage columnID="287E7D38-2816-1F6B-9139-FE720859F283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE87B7DC-A197-AA77-A6B8-E3976284A627" name="Relation_7_EMPLEADOS_FK">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>25C4F6DF-186F-6510-3FD4-9BC6BCAD389B</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5A24C5B-7BE3-8F71-9F62-3967214F0FB6"/>
+<colUsage columnID="5E2434B9-CE60-1BF1-9C2D-6F4154015869"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

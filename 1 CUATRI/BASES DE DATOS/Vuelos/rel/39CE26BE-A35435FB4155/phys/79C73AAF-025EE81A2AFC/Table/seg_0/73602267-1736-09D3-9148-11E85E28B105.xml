@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PLANTILLA" directorySegmentName="seg_0" id="73602267-1736-09D3-9148-11E85E28B105">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+<schemaObject>DE1C485E-45DA-8727-70C7-44595B540B49</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>31771CC7-A156-6EC5-6C33-CFB679DDB561</segment>
+<tableSpace>3EE9B7E3-04F1-B2DA-5F15-8F561D56ABA3</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SITUACION" id="00649640-FAD6-A333-5E12-982E52C690BF">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMB_SERV" id="0092AAC6-D5C7-E736-CF9C-0A461227880B">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CATEG" id="33720D42-5F80-3CED-D949-60BD116622B0">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_ASTRO" id="464FC373-1468-2B4D-FD01-588ECB2612EE">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA" id="97BCCA3D-2A38-509E-137F-40EBDC84B012">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SEGURIDAD" id="B0001EA3-CDD1-0FDB-0393-818780C92F2E">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_SERV" id="CDE40A82-B00C-81D6-B03B-CFF8310002DB">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_VUELO" id="CE3CDBAA-53C0-11CE-7501-4D4BF342436E">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO_NAVE" id="D3D2AFFE-F4F5-2D92-7D28-8CD980A89D51">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMB_AST" id="EDC4F4A6-9D8D-15B6-ECAE-E248F4785DBA">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:00 UTC</createdTime>
+<ownerDesignName>Vuelos</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev12c>

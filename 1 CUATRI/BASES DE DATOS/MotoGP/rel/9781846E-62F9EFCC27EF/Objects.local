@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="View" objectID="54860100-65C0-A0F6-0423-95D6AC9E7503" name="PILOTOS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.TableView" propertyParentId="9781846E-F1F9-AE69-455E-62F9EFCC27EF" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

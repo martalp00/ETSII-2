@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF1A20B9-CCB4-6DCD-A229-E2BB422F300B" name="POBLACION">
+<createdBy>marta</createdBy>
+<createdTime>2020-09-07 01:40:08 UTC</createdTime>
+<ownerDesignName>parques naturales</ownerDesignName>
+<engineerTo>
+<item key="0412ABBC-9FCC-9E77-DEAD-AD530E46A9C7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sobrepob" id="C7842AF2-EF4B-3AB8-F445-68887A2726F4">
+<createdBy>marta</createdBy>
+<createdTime>2020-09-07 01:40:14 UTC</createdTime>
+<ownerDesignName>parques naturales</ownerDesignName>
+<engineerTo>
+<item key="0412ABBC-9FCC-9E77-DEAD-AD530E46A9C7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="A9B33DF4-7287-90A5-9EE4-F46D08545E22">
+<createdBy>marta</createdBy>
+<createdTime>2020-09-07 01:44:22 UTC</createdTime>
+<generatorID>F3ECBCEC-0B15-1540-D54A-D422CC22ECAE</generatorID>
+<ownerDesignName>parques naturales</ownerDesignName>
+<engineerTo>
+<item key="0412ABBC-9FCC-9E77-DEAD-AD530E46A9C7" value="true"/>
+</engineerTo>
+<referedAttribute>345A749C-DA72-CF54-5A46-CE7E4C555321</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="N cientif" id="211C1C10-F7E0-763C-4C40-B2CC14A74A19">
+<createdBy>marta</createdBy>
+<createdTime>2020-09-07 01:59:42 UTC</createdTime>
+<generatorID>0852D3D1-718A-DCAE-543A-1E7323DEDDEF</generatorID>
+<ownerDesignName>parques naturales</ownerDesignName>
+<engineerTo>
+<item key="0412ABBC-9FCC-9E77-DEAD-AD530E46A9C7" value="true"/>
+</engineerTo>
+<referedAttribute>52AE042D-FD9D-DEEF-5DDB-FCE58F386C15</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="716EE54D-4392-5156-8863-4ADD18655707" name="POBLACION PK">
+<createdBy>marta</createdBy>
+<createdTime>2020-09-07 01:44:22 UTC</createdTime>
+<ownerDesignName>parques naturales</ownerDesignName>
+<engineerTo>
+<item key="0412ABBC-9FCC-9E77-DEAD-AD530E46A9C7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A9B33DF4-7287-90A5-9EE4-F46D08545E22</attributeRef>
+<attributeRef>211C1C10-F7E0-763C-4C40-B2CC14A74A19</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

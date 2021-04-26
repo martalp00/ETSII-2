@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ESPECIE_FK1" directorySegmentName="seg_0" id="1B13D015-C38C-30D8-9AE0-E0E1D5AB1871">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:12 UTC</createdTime>
+<generatorID>6895FE49-7B33-622C-8EF8-4E8E1398A690</generatorID>
+<ownerDesignName>Vuelos</ownerDesignName>
+<engineerTo>
+<item key="39CE26BE-C163-7336-ACBE-A35435FB4155" value="true"/>
+</engineerTo>
+<sourcePk>C35BA96C-95EF-8B4C-2EDB-BEF32829B758</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>69C73DD1-3AB8-0229-06C0-818E26EA1122</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>035F7F4C-2570-4D79-7711-0A2311EC8C49</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

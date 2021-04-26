@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HABITA_FK2" directorySegmentName="seg_0" id="FE484ADF-C56B-29D3-537D-DB70E4D7DB79">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-12 12:58:12 UTC</createdTime>
+<generatorID>E7FC0EFB-6F74-5474-849F-196B9DC813E4</generatorID>
+<ownerDesignName>Vuelos</ownerDesignName>
+<engineerTo>
+<item key="39CE26BE-C163-7336-ACBE-A35435FB4155" value="true"/>
+</engineerTo>
+<sourcePk>ABB5E241-0494-B85F-01C9-4A32EF2E4841</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>035F7F4C-2570-4D79-7711-0A2311EC8C49</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FC860863-1D2A-260C-79C2-1B74212F7695</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

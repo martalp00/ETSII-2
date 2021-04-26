@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E61A7D6-2B93-4B4B-2CBB-E00F272B9964" schemaObject="DF619CB8-7E76-57C0-3EDA-0D5E7245F85B" name="JURADO">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>JURADO</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:06 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>6587260C-40F1-5623-2BCC-AEDFF5D51F2F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DNI2" id="C2E5FC2C-3F34-CADA-98FB-44A6338B63D5">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>JURADO</sourceObjSchema>
+<sourceObjName>DNI2</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>628238ED-01B5-9C0E-FEBD-866CA38EC656</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B88AC443-CF64-9675-4E96-871B14A23D69" referredColumn="6A24E00E-F67A-9520-2B23-13D393566F1B"/>
+</associations>
+</Column>
+<Column name="USUARIO" id="ECC15918-7AB9-4C6D-F285-B83185A5D86C">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>JURADO</sourceObjSchema>
+<sourceObjName>USUARIO</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>B97AD591-1EF1-9B08-891B-7304A00CB2C0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 BYTE</dataTypeSize>
+<ownDataTypeParameters>32 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD" id="0D7694FB-DDE7-5901-B7B8-2A6D00E43B33">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>JURADO</sourceObjSchema>
+<sourceObjName>PASSWORD</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>9C12A25D-4DEA-35F4-B6AA-6DF81ECFBBAD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 BYTE</dataTypeSize>
+<ownDataTypeParameters>32 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBSERVACIONES" id="FB998941-40A7-395F-C7B4-F74A973BDE8C">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>JURADO</sourceObjSchema>
+<sourceObjName>OBSERVACIONES</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>A0A01833-82F8-CF77-AD8F-F425CDDDBFD4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 BYTE</dataTypeSize>
+<ownDataTypeParameters>512 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODALIDAD" id="2CCFD82A-A5B2-DE99-F9C3-F01A49E1AC69">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>JURADO</sourceObjSchema>
+<sourceObjName>MODALIDAD</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>B68531FC-F962-E99A-1FEB-33E24EA4ED06</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 BYTE</dataTypeSize>
+<ownDataTypeParameters>64 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35D2BF84-8B0A-22E7-6250-541933791558" referredColumn="7D5F0784-80D7-DA60-470E-D91DD22A7A52"/>
+</associations>
+</Column>
+<Column name="IDEN2" id="E9D8F8DA-1CA5-45C7-13DB-29E664A5DA93">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>JURADO</sourceObjSchema>
+<sourceObjName>IDEN2</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>36BA7F12-6A6E-BB1C-E380-ECCAF9E85D97</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6FE498E-E089-2A39-46E1-BFCA63BF528D" referredColumn="640959B9-4E37-C986-CA14-ED9F6D321D7D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1E2F5DE-918A-5CF2-6992-49CF5126332E" name="JURADO_PK">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>JURADO_PK</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>3F297315-1E4F-8442-63B4-7029DE63DD18</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2E5FC2C-3F34-CADA-98FB-44A6338B63D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE4E16E3-1116-3F03-D7AA-C64E6D10C4D2" schemaObject="DF619CB8-7E76-57C0-3EDA-0D5E7245F85B" name="JURADO_PK">
+<sourceConnName>Vuelos</sourceConnName>
+<sourceObjSchema>UBD161</sourceObjSchema>
+<sourceObjName>JURADO_PK</sourceObjName>
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<importedID>CB51A586-EFAF-E80D-0116-A82FCBA16334</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2E5FC2C-3F34-CADA-98FB-44A6338B63D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25F47686-CCC9-A6EA-A7BA-1235E9B45C88" name="JURADO_FK1">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2E5FC2C-3F34-CADA-98FB-44A6338B63D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9B2FCD0-22AE-EA25-4D06-9D1618DAF826" name="JURADO_FK2">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9D8F8DA-1CA5-45C7-13DB-29E664A5DA93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40F5B268-28CF-D78F-8B9F-6C207D26B8CC" name="SYS_C0061996">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:07 UTC</createdTime>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CCFD82A-A5B2-DE99-F9C3-F01A49E1AC69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

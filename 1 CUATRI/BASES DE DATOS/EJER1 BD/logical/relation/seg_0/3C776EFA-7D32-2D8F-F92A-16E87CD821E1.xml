@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="IMAGEN_FK1" directorySegmentName="seg_0" id="3C776EFA-7D32-2D8F-F92A-16E87CD821E1">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-25 22:13:14 UTC</createdTime>
+<generatorID>FFE1154A-3B80-469D-9435-D7EB97B84DC2</generatorID>
+<ownerDesignName>EJER1 BD</ownerDesignName>
+<engineerTo>
+<item key="A1210533-B6C3-1671-A16A-BD763619427F" value="true"/>
+</engineerTo>
+<sourcePk>5DF9B3FD-CA54-0067-08AC-B6FDEC31C006</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3A8D4604-D78E-AC7A-256C-917D44875472</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CFA2645B-B76C-4C25-DF37-B5613BDEC52E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

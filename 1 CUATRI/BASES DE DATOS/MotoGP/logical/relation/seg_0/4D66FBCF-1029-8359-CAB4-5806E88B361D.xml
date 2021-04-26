@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="4D66FBCF-1029-8359-CAB4-5806E88B361D">
+<createdBy>marta</createdBy>
+<createdTime>2019-11-03 20:29:45 UTC</createdTime>
+<ownerDesignName>MotoGP</ownerDesignName>
+<engineerTo>
+<item key="9781846E-F1F9-AE69-455E-62F9EFCC27EF" value="true"/>
+</engineerTo>
+<sourcePk>78E4AD5F-8A10-A67D-710C-C0874CBD5462</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8F3AC08C-F65B-FD28-B3AE-0D36D44FFA81</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>47064D52-B401-ABAB-7CAB-8FADFF774F35</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

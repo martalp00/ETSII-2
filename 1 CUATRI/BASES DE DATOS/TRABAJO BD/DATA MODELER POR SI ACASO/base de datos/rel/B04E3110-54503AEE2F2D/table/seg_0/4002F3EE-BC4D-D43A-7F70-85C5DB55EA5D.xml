@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4002F3EE-BC4D-D43A-7F70-85C5DB55EA5D" name="Relation_15">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USUARIO_CORREO_ELECTRONICO" id="69D54A89-2CE0-9C39-871A-200E7AD2B507">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2339BC7D-76C3-9F45-52BA-209787ADBC1C" referredColumn="1A979720-34F4-2CD9-A89E-6E8B43FB665C"/>
+</associations>
+</Column>
+<Column name="SERVICIOS_CODIGO" id="E3EF32C1-F247-F273-EF3B-429543B3158A">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>255</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B651DD99-F51E-90A4-9754-721995D9A9D8" referredColumn="13BF46CA-2BD5-6B92-709D-B7AB0D69B6D7"/>
+</associations>
+</Column>
+<Column name="SERVICIOS_CODIGO1" id="862A2321-5DF5-37AC-F5A4-E9F7AC90E2CC">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B651DD99-F51E-90A4-9754-721995D9A9D8" referredColumn="CEC6CDF1-5E6A-B769-E45C-040996359FE6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1FE28226-D8DF-1CB3-E38B-3F70265351BE" name="Relation_15_PK">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<ownerDesignName>base de datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69D54A89-2CE0-9C39-871A-200E7AD2B507"/>
+<colUsage columnID="E3EF32C1-F247-F273-EF3B-429543B3158A"/>
+<colUsage columnID="862A2321-5DF5-37AC-F5A4-E9F7AC90E2CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC6D70E7-4397-D343-66D3-F4505C2D12DD" name="Relation_15_USUARIO_FK">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>4EC17C92-7D05-633F-9FF6-6267360D702C</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69D54A89-2CE0-9C39-871A-200E7AD2B507"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="597BCD5E-F3A0-660D-B5C8-0EFF8219EB96" name="Relation_15_SERVICIOS_FK">
+<createdBy>marta</createdBy>
+<createdTime>2019-12-04 18:13:11 UTC</createdTime>
+<generatorID>4EC17C92-7D05-633F-9FF6-6267360D702C</generatorID>
+<ownerDesignName>base de datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3EF32C1-F247-F273-EF3B-429543B3158A"/>
+<colUsage columnID="862A2321-5DF5-37AC-F5A4-E9F7AC90E2CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

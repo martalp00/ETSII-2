@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="2AD6FC7C-3F18-23C9-00EB-93B37DBD3CBA" mainViewID="5981A399-9C74-66DB-0D17-A40F61584D99">
+<createdBy>marta</createdBy>
+<createdTime>2020-09-07 01:36:11 UTC</createdTime>
+<ownerDesignName>parques naturales</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
